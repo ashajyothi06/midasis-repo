@@ -1,0 +1,190 @@
+import TopContactBar from "@/components/TopContactBar";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
+import { ArrowRight, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+import serviceAi from "@/assets/AI-Services-img.jpg";
+import serviceProject from "@/assets/Project-Services.jpg";
+import serviceStaffing from "@/assets/eda-Application-Maintenance.jpg";
+import servicePlacement from "@/assets/service-placement.jpg";
+import serviceTesting from "@/assets/service-testing.jpg";
+import serviceConsulting from "@/assets/edf-professional-consulting.jpg";
+import serviceMaintenance from "@/assets/service-maintenance.jpg";
+import serviceDevops from "@/assets/DevOps-and-Automation-Services.jpg";
+
+import aiIcon from "@/assets/Ai-Services-Icon.png";
+import projectIcon from "@/assets/Project-Services-Icon.png";
+import staffIcon from "@/assets/Staff-Augmentation-Icon.png";
+import placementIcon from "@/assets/permanent-placement-icon.png";
+import testingIcon from "@/assets/software-testing-icon.png";
+import consultingIcon from "@/assets/professional-consulting-icon.png";
+import maintenanceIcon from "@/assets/application-maintanance-icon.png";
+import devopsIcon from "@/assets/devops-automation.png";
+
+import servicesHeroBg from "@/assets/servicesall.jpg";
+
+type ServiceCard = {
+  title: string;
+  image: string;
+  logo: string;
+  href: string;
+};
+
+const services: ServiceCard[] = [
+  { title: "A.I. Services", image: serviceAi, logo: aiIcon, href: "/services/ai-services" },
+  { title: "Project Services", image: serviceProject, logo: projectIcon, href: "/services/project-services" },
+  { title: "Staff Augmentation", image: serviceStaffing, logo: staffIcon, href: "/services/staff-augmentation" },
+  { title: "Permanent Placement Service", image: servicePlacement, logo: placementIcon, href: "/services/permanent-placement" },
+  { title: "Software Testing", image: serviceTesting, logo: testingIcon, href: "/services/software-testing" },
+  { title: "Professional Consulting", image: serviceConsulting, logo: consultingIcon, href: "/services/professional-consulting" },
+  { title: "Application Maintenance & Management", image: serviceMaintenance, logo: maintenanceIcon, href: "/services/application-maintenance" },
+  { title: "DevOps and Automation Services", image: serviceDevops, logo: devopsIcon, href: "/services/devops-automation" },
+];
+
+const Services = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <TopContactBar />
+      <Header />
+
+      {/* HERO */}
+      <section
+        className="relative py-24 md:py-28 bg-cover bg-center overflow-hidden"
+        style={{ backgroundImage: `url(${servicesHeroBg})` }}
+      >
+        <div className="absolute inset-0 bg-black/55" />
+        <div className="relative z-10 w-full px-4 sm:px-8 lg:px-16 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Services</h1>
+          <div className="flex items-center justify-center gap-2 text-white/80">
+            <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+            <ChevronRight className="w-4 h-4" />
+            <span className="text-accent">Services</span>
+          </div>
+        </div>
+      </section>
+
+      {/* MAIN SERVICES GRID */}
+      <main className="py-20 bg-secondary">
+        <section id="services" className="w-full">
+          <div className="w-full px-3 sm:px-4 lg:px-8 xl:px-12">
+
+            {/* Heading */}
+            <div className="mb-12 text-center">
+              <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-[#f58220]">
+                EDATAFORCE CONSULTING LLC
+              </p>
+              <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wider text-[#15172b]">
+                Our World-Class Services
+              </h2>
+            </div>
+
+            {/* SERVICE CARDS */}
+            <div className="
+              grid 
+              grid-cols-1 
+              sm:grid-cols-2 
+              lg:grid-cols-4 
+              gap-6 
+              md:gap-8
+            ">
+              {services.map((service) => (
+                <Link
+                  key={service.title}
+                  to={service.href}
+                  className="
+                    group 
+                    relative 
+                    block 
+                    mx-auto 
+                    w-[95%] sm:w-full  /* wider mobile cards */
+                    overflow-hidden 
+                    shadow-xl
+                    transition-all 
+                    duration-500
+                    hover:-translate-y-3 
+                    hover:shadow-2xl
+                  "
+                >
+                  <div className="relative h-[400px] sm:h-[430px] md:h-[460px] w-full">
+
+                    {/* Background image */}
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="
+                        absolute inset-0 
+                        h-full w-full 
+                        object-cover
+                        transition-transform duration-500
+                        group-hover:scale-110
+                      "
+                    />
+
+                    {/* Overlay */}
+                    <div
+                      className="
+                        absolute inset-0 bg-gradient-to-t
+                        from-black/90 via-black/60 to-transparent
+                      "
+                    />
+
+                    {/* Logo + Title */}
+                    <div className="absolute bottom-20 left-5 flex items-center gap-4">
+                      <div
+                        className="
+                          h-20 w-20 flex items-center justify-center 
+                          bg-[#11153b] shadow-lg
+                          transition-transform duration-500
+                          group-hover:-translate-y-1 group-hover:translate-x-1
+                        "
+                      >
+                        <img src={service.logo} alt={service.title} className="h-10 w-10 object-contain" />
+                      </div>
+
+                      <h3 className="text-2xl font-semibold text-white group-hover:text-[#f58220]">
+                        {service.title}
+                      </h3>
+                    </div>
+
+                    {/* READ MORE — hover only */}
+                    <div
+                      className="
+                        absolute bottom-6 left-5
+                        opacity-0 translate-y-2
+                        transition-all duration-300
+                        group-hover:opacity-100 group-hover:translate-y-0
+                      "
+                    >
+                      <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
+                        <span className="group-hover:underline">Read More</span>
+                        <ArrowRight className="h-5 w-5 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0" />
+                      </span>
+                    </div>
+
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            {/* CTA Button */}
+            <div className="mt-12 text-center">
+              <Link to="/services">
+                <Button variant="orange" size="lg" className="px-10 py-5 font-semibold tracking-wide">
+                  All Our Services
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Services;
