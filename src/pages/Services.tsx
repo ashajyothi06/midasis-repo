@@ -1,3 +1,4 @@
+import { useState } from "react";
 import TopContactBar from "@/components/TopContactBar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -50,7 +51,7 @@ type ServiceCard = {
   href: string;
 };
 
-const services: ServiceCard[] = [
+const allServices: ServiceCard[] = [
   { title: "A.I. Services", image: serviceAi, logo: aiIcon, href: "/services/ai-services" },
   { title: "Project Services", image: serviceProject, logo: projectIcon, href: "/services/project-services" },
   { title: "Staff Augmentation", image: serviceStaffing, logo: staffIcon, href: "/services/staff-augmentation" },
@@ -100,6 +101,11 @@ const services: ServiceCard[] = [
 ];
 
 const Services = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  // Show all or hide the last two
+  const visibleServices = showAll ? allServices : allServices.slice(0, allServices.length - 2);
+
   return (
     <div className="min-h-screen bg-background">
       <TopContactBar />
@@ -140,7 +146,7 @@ const Services = () => {
 
             {/* SERVICE CARDS */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-              {services.map((service) => (
+              {visibleServices.map((service) => (
                 <div
                   key={service.title}
                   className="
@@ -164,9 +170,9 @@ const Services = () => {
                     {/* Gradient overlay */}
                     <div
                       className="
-                      absolute inset-0 bg-gradient-to-t
-                      from-black/90 via-black/60 to-transparent
-                    "
+                        absolute inset-0 bg-gradient-to-t
+                        from-black/90 via-black/60 to-transparent
+                      "
                     />
 
                     {/* Icon + Title */}
@@ -207,10 +213,15 @@ const Services = () => {
               ))}
             </div>
 
-            {/* CTA BUTTON */}
+            {/* CTA BUTTON – toggles last two services */}
             <div className="mt-12 text-center">
-              <Button variant="orange" size="lg" className="px-10 py-5 font-semibold tracking-wide">
-                All Our Services
+              <Button
+                variant="orange"
+                size="lg"
+                className="px-10 py-5 font-semibold tracking-wide"
+                onClick={() => setShowAll((prev) => !prev)}
+              >
+                {showAll ? "Show Less" : "All Our Services"}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
