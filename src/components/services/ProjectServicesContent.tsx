@@ -34,10 +34,8 @@ const ProjectServicesContent = () => {
       <section className="w-full py-10 md:py-14">
         {/* SAME LAYOUT: 5fr / 2fr */}
         <div className="max-w-6xl xl:max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[5fr_2fr] gap-10 px-4 lg:px-8">
-          
           {/* ================= LEFT SIDE ================= */}
           <div className="space-y-8">
-
             {/* HERO IMAGE – identical to maintenance page */}
             <div className="w-full h-[380px] md:h-[500px] lg:h-[560px] overflow-hidden shadow-xl group cursor-pointer">
               <img
@@ -47,13 +45,26 @@ const ProjectServicesContent = () => {
               />
             </div>
 
-            {/* CONTENT SECTION (black text like maintenance page) */}
-            <div className="space-y-7 text-base md:text-lg text-[#111111] leading-relaxed">
-
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">
+            {/* CONTENT SECTION */}
+            <div className="space-y-7 leading-relaxed">
+              <h2
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Project Services
               </h2>
-              <p>
+
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 In today’s rapidly changing IT landscape, the need for agility, precision,
                 and speed has never been greater. At eDataForce, we offer a wide range of
                 project services designed to meet your business’s unique challenges and
@@ -62,25 +73,82 @@ const ProjectServicesContent = () => {
                 measurable results.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-bold text-[#0a0a0a] mt-6">
+              <h3
+                className="mt-6"
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our Core Project Services
               </h3>
-              <ul className="space-y-4 list-disc list-inside">
-                <li><strong>IT Staffing & Augmentation:</strong> We provide expert talent to scale your projects without delays.</li>
-                <li><strong>End-to-End Project Management:</strong> We manage full project lifecycles for on-time, high-quality delivery.</li>
-                <li><strong>Custom Software Development:</strong> Tailored development from architecture to deployment.</li>
-                <li><strong>Business Process Optimization:</strong> Streamlining workflows to reduce cost & improve efficiency.</li>
-                <li><strong>Cloud Solutions & Migration:</strong> AWS / Azure / GCP migrations with zero disruption.</li>
-                <li><strong>AI & Data Analytics Solutions:</strong> AI-driven insights for better decision-making.</li>
-                <li><strong>Application Maintenance & Support:</strong> Keeping your apps updated, secure, and optimized.</li>
-                <li><strong>Cybersecurity Solutions:</strong> Protecting your organization from cyber threats.</li>
-                <li><strong>Digital Transformation Services:</strong> Helping companies modernize and compete in a digital-first world.</li>
+
+              <ul
+                className="space-y-4 list-disc list-inside"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
+                <li>
+                  <strong>IT Staffing & Augmentation:</strong> We provide expert talent to
+                  scale your projects without delays.
+                </li>
+                <li>
+                  <strong>End-to-End Project Management:</strong> We manage full project
+                  lifecycles for on-time, high-quality delivery.
+                </li>
+                <li>
+                  <strong>Custom Software Development:</strong> Tailored development from
+                  architecture to deployment.
+                </li>
+                <li>
+                  <strong>Business Process Optimization:</strong> Streamlining workflows to
+                  reduce cost & improve efficiency.
+                </li>
+                <li>
+                  <strong>Cloud Solutions & Migration:</strong> AWS / Azure / GCP
+                  migrations with zero disruption.
+                </li>
+                <li>
+                  <strong>AI & Data Analytics Solutions:</strong> AI-driven insights for
+                  better decision-making.
+                </li>
+                <li>
+                  <strong>Application Maintenance & Support:</strong> Keeping your apps
+                  updated, secure, and optimized.
+                </li>
+                <li>
+                  <strong>Cybersecurity Solutions:</strong> Protecting your organization
+                  from cyber threats.
+                </li>
+                <li>
+                  <strong>Digital Transformation Services:</strong> Helping companies
+                  modernize and compete in a digital-first world.
+                </li>
               </ul>
 
-              <h3 className="text-xl md:text-2xl font-bold text-[#0a0a0a]">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Why Partner With eDataForce?
               </h3>
-              <p>
+
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 At eDataForce, we don’t just offer services—we build partnerships. Whether
                 you’re looking to scale, innovate, or transform, we provide the tools,
                 talent, and technology to help you succeed.
@@ -90,10 +158,17 @@ const ProjectServicesContent = () => {
 
           {/* ================= RIGHT SIDE: SERVICES + CTA ================= */}
           <aside className="flex flex-col items-stretch space-y-8">
-
             {/* SERVICES LIST – same formatting as maintenance page */}
             <div className="w-full bg-[#f4f5fb] shadow-md border border-border min-h-[460px] px-6 pt-6 pb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-6">
+              <h3
+                className="mb-6"
+                style={{
+                  fontSize: "22px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our World-Class Services
               </h3>
 
@@ -101,18 +176,27 @@ const ProjectServicesContent = () => {
                 {services.map((service) => {
                   const isActive = activeService === service.href;
 
+                  const baseClasses =
+                    "w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold shadow-sm transition-colors";
+                  const activeClasses = "bg-[#f58220] text-white";
+                  const inactiveClasses = "bg-white hover:bg-[#f3f4ff]";
+                  const textColor = isActive ? "#FFFFFF" : "#121158";
+
                   return (
                     <Link
                       key={service.href}
                       to={service.href}
                       onClick={() => setActiveService(service.href)}
-                      className={`w-full flex items-center justify-between px-6 py-4 
-                      text-sm md:text-base font-semibold shadow-sm transition 
-                      ${isActive ? "bg-[#f58220] text-white" : "bg-white text-[#111827] hover:bg-[#f3f4ff]"}
-                    `}
+                      className={`${baseClasses} ${
+                        isActive ? activeClasses : inactiveClasses
+                      }`}
+                      style={{
+                        fontSize: "18px",
+                        fontFamily: "Roboto, sans-serif",
+                      }}
                     >
-                      <span>{service.title}</span>
-                      <ArrowRight className="w-4 h-4" />
+                      <span style={{ color: textColor }}>{service.title}</span>
+                      <ArrowRight className="w-4 h-4" style={{ color: textColor }} />
                     </Link>
                   );
                 })}
@@ -121,7 +205,6 @@ const ProjectServicesContent = () => {
 
             {/* CTA CARD – EXACT same style as maintenance page */}
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
-
               <img
                 src={ctaImage}
                 alt="Contact eDataForce"
@@ -154,10 +237,9 @@ const ProjectServicesContent = () => {
 
                 <div className="flex items-center justify-center gap-2 text-xs md:text-sm text-white/90">
                   <Phone className="w-4 h-4" />
-                  +1 (972) 989-3398
+                  <span>+1 (972) 989-3398</span>
                 </div>
               </div>
-
             </div>
           </aside>
         </div>

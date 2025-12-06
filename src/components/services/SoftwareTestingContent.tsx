@@ -48,14 +48,28 @@ const SoftwareTestingContent = () => {
             </div>
 
             {/* TEXT CONTENT – same width as image, dark text */}
-            <div className="space-y-7 text-base md:text-lg text-[#111111] leading-relaxed">
+            <div className="space-y-7 leading-relaxed">
               
               {/* Intro */}
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-3">
+                <h2
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.75rem",
+                  }}
+                >
                   Software Testing
                 </h2>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   At eDataForce, we believe that testing is more than just a phase—it’s the 
                   foundation of reliable, high-performing software. We do it right, and we test 
                   it right. Our approach to software testing is driven by precision, performance, 
@@ -65,16 +79,37 @@ const SoftwareTestingContent = () => {
 
               {/* Why Software Testing Matters */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.5rem",
+                  }}
+                >
                   Why Software Testing Matters
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Quality issues can create operational roadblocks, increase costs, and damage 
                   your company’s reputation. Many organizations recognize these issues but 
                   struggle to pinpoint and implement corrective measures. That’s where eDataForce 
                   steps in.
                 </p>
-                <p className="mt-2">
+                <p
+                  className="mt-2"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   We specialize in not only identifying performance bottlenecks but also 
                   implementing effective solutions that enhance the quality, reliability, and 
                   speed to market of your software systems.
@@ -83,16 +118,37 @@ const SoftwareTestingContent = () => {
 
               {/* Expertise in Comprehensive Testing */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.5rem",
+                  }}
+                >
                   Our Expertise in Comprehensive Software Testing
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Our world-class software testing services cover the entire software lifecycle, 
                   from development to deployment and beyond. We provide thorough assessments of 
                   performance, functionality, and usability to give you a clear picture of your 
                   software’s strengths and weaknesses.
                 </p>
-                <p className="mt-2">
+                <p
+                  className="mt-2"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Our goal is to ensure that your systems are stable, scalable, and capable of 
                   supporting your business’s growth. At eDataForce, we go beyond standard testing 
                   practices to deliver measurable results that enhance quality, reduce risks, and 
@@ -102,33 +158,48 @@ const SoftwareTestingContent = () => {
 
               {/* Key Areas of Focus */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-3">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.75rem",
+                  }}
+                >
                   Key Areas of Focus
                 </h3>
-                <ul className="space-y-3 list-disc list-inside">
+                <ul
+                  className="space-y-3 list-disc list-inside"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       QA Testing &amp; Bug Management:
                     </span>{" "}
                     Identify and resolve defects efficiently with our robust quality assurance 
                     practices and expert bug-tracking systems.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Performance Tuning:
                     </span>{" "}
                     Optimize your software’s performance to handle real-world workloads, ensuring 
                     it meets the highest standards for speed and reliability.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Risk Identification &amp; Mitigation:
                     </span>{" "}
                     Our team proactively identifies potential risks during testing, ensuring your 
                     software remains secure, scalable, and ready to perform in production.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Weekly Benchmarking:
                     </span>{" "}
                     We provide regular benchmarks that assess your system’s performance, helping 
@@ -139,10 +210,24 @@ const SoftwareTestingContent = () => {
 
               {/* Optimizing quality approach */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.5rem",
+                  }}
+                >
                   Optimizing Your Quality Approach
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Our software testing services are designed to transform your quality assurance
                   processes and help you maintain a competitive edge. With our tailored strategies, 
                   we enable clients to reimagine their testing approach, delivering software that 
@@ -152,80 +237,103 @@ const SoftwareTestingContent = () => {
 
               {/* QA Approach & Capabilities */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-3">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.75rem",
+                  }}
+                >
                   Our QA Approach &amp; Capabilities Include
                 </h3>
-                <ul className="space-y-3 list-disc list-inside">
+                <ul
+                  className="space-y-3 list-disc list-inside"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">Integration Testing:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Integration Testing:
+                    </span>{" "}
                     Ensuring that your software components work seamlessly together to deliver a 
                     smooth, cohesive experience.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">Regression Testing:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Regression Testing:
+                    </span>{" "}
                     Verifying that new updates and changes haven’t introduced new defects into 
                     your system.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">Unit Testing:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Unit Testing:
+                    </span>{" "}
                     Testing individual components for functionality, ensuring that each element 
                     works as intended.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Usability &amp; Acceptance Testing:
                     </span>{" "}
                     Making sure your software meets user expectations and is ready for deployment.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Strategic Quality Planning:
                     </span>{" "}
                     Crafting a comprehensive quality strategy that aligns with your business 
                     objectives and product goals.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Continuous Testing During Development Phase:
                     </span>{" "}
                     Ongoing testing throughout the development process to catch issues early and 
                     ensure a smooth final product.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Formulation Of Test Plan:
                     </span>{" "}
                     Developing customized test plans that provide a structured approach to 
                     achieving your quality goals.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Test Coverage Analysis:
                     </span>{" "}
                     Analyzing the breadth and depth of your testing to ensure all critical areas 
                     are adequately tested.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">Test Automation:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Test Automation:
+                    </span>{" "}
                     Utilizing advanced test automation tools to speed up the testing process and 
                     ensure consistency across multiple iterations.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Virtual QA Consultant:
                     </span>{" "}
                     Offering remote expertise to guide your QA strategy and optimize your testing 
                     process.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Remote Software Test Lab:
                     </span>{" "}
                     Access to our state-of-the-art test lab for offsite software testing, ensuring 
                     flexibility and scalability.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Scalable Software Testing:
                     </span>{" "}
                     Our testing services are designed to scale with your needs, whether you’re 
@@ -236,10 +344,24 @@ const SoftwareTestingContent = () => {
 
               {/* Why Choose eDataForce */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.5rem",
+                  }}
+                >
                   Why Choose eDataForce for Software Testing?
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   When you partner with eDataForce, you’re choosing a team committed to delivering 
                   measurable improvements to your software’s quality and performance. Our holistic 
                   approach to software testing ensures that every aspect of your system is tested 
@@ -255,7 +377,15 @@ const SoftwareTestingContent = () => {
           <aside className="flex flex-col items-stretch space-y-8">
             {/* SERVICES LIST CARD */}
             <div className="w-full bg-[#f4f5fb] shadow-md border border-border min-h-[460px] px-6 pt-6 pb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-6">
+              <h3
+                className="mb-6"
+                style={{
+                  fontSize: "22px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our World-Class Services
               </h3>
 
@@ -267,8 +397,8 @@ const SoftwareTestingContent = () => {
                     "w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold shadow-sm transition-colors";
 
                   const activeClasses = "bg-[#f58220] text-white";
-                  const inactiveClasses =
-                    "bg-white text-[#111827] hover:bg-[#f3f4ff]";
+                  const inactiveClasses = "bg-white hover:bg-[#f3f4ff]";
+                  const textColor = isActive ? "#FFFFFF" : "#121158";
 
                   return (
                     <Link
@@ -278,9 +408,13 @@ const SoftwareTestingContent = () => {
                       className={`${baseClasses} ${
                         isActive ? activeClasses : inactiveClasses
                       }`}
+                      style={{
+                        fontSize: "18px",
+                        fontFamily: "Roboto, sans-serif",
+                      }}
                     >
-                      <span>{service.title}</span>
-                      <ArrowRight className="w-4 h-4" />
+                      <span style={{ color: textColor }}>{service.title}</span>
+                      <ArrowRight className="w-4 h-4" style={{ color: textColor }} />
                     </Link>
                   );
                 })}

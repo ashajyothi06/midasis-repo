@@ -22,8 +22,9 @@ const services = [
   { title: "Application Security", href: "/services/application-security" },
   { title: "Network Infrastructure Security", href: "/services/network-security" },
   { title: "Audit & Compliance", href: "/services/audit-compliance" },
-  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" }, // current page
+  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" },
 ];
+
 const MobileSecurityContent = () => {
   const [activeService, setActiveService] = useState("/services/mobile-security");
 
@@ -43,12 +44,25 @@ const MobileSecurityContent = () => {
             </div>
 
             {/* TEXT CONTENT */}
-            <div className="space-y-7 text-base md:text-lg leading-relaxed text-slate-800">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+            <div className="space-y-7 leading-relaxed">
+              <h2
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Mobile Application Security
               </h2>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 The rapid rise of smartphones and tablets in the enterprise has created a
                 powerful but complex mobile ecosystem. Along with flexibility and
                 productivity, mobile technologies introduce unique privacy, security, and
@@ -56,42 +70,86 @@ const MobileSecurityContent = () => {
                 development to deployment and ongoing use.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Varutra leverages deep technical, operational, and consulting expertise to
                 assess the security posture of mobile applications and the devices they run
                 on. Our goal is to protect the sensitive information that mobile
                 applications store, process, and transmit.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 We combine multiple service offerings—Penetration Testing, Secure Code
                 Review, Application Architecture Review, and Vulnerability Patching—to
                 defend mobile apps against modern cyberattacks.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Your Extended Mobile Security Team
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Our Mobile Application Security Services operate as an extension of your
                 in-house security team. We act as your strategic partner, ensuring your
                 mobile applications remain resilient, compliant, and secure throughout
                 their lifecycle.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Mobile Application Penetration Testing
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Our mobile application penetration testing and security assessments are
                 designed to identify vulnerabilities that can be exploited on mobile
                 devices. We examine both the application and its associated web services
                 and APIs to provide an end-to-end view of risk.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 We perform both{" "}
                 <span className="font-semibold">Black Box</span> and{" "}
                 <span className="font-semibold">Gray Box</span> assessments, where our
@@ -100,7 +158,13 @@ const MobileSecurityContent = () => {
                 your application, architecture, and business logic.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Our methodology is aligned with{" "}
                 <span className="font-semibold">
                   OWASP Mobile Application Security Verification Standard (MASVS)
@@ -110,16 +174,36 @@ const MobileSecurityContent = () => {
                 guidelines, ensuring globally recognized best practices.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Multi-Platform Coverage
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 We provide Mobile Application Security Services across major platforms and
                 technologies, including:
               </p>
 
-              <ul className="list-disc list-inside space-y-2">
+              <ul
+                className="list-disc list-inside space-y-2"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 <li>Android and iOS</li>
                 <li>Native applications</li>
                 <li>Hybrid applications</li>
@@ -127,19 +211,47 @@ const MobileSecurityContent = () => {
                 <li>Mobile Device Management (MDM) apps</li>
               </ul>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 The Varutra Advantage
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Our approach combines proven assessment techniques, in-house tools
                 (including patent-filed frameworks such as MASTS), and mobile-focused
                 procedures to deliver deep, actionable insights.
               </p>
 
-              <p>We assess critical areas such as:</p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
+                We assess critical areas such as:
+              </p>
 
-              <ul className="list-disc list-inside space-y-2">
+              <ul
+                className="list-disc list-inside space-y-2"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 <li>
                   Application permissions and over-privileged access to device
                   functionality
@@ -169,17 +281,37 @@ const MobileSecurityContent = () => {
                 </li>
               </ul>
 
-              <p className="italic">
+              <p
+                className="italic"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Varutra’s mobile application security research and tooling (including
                 MASTS) have been recognized in industry references such as the Gartner
                 Market Guide for Mobile Application Security Testing.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 What Is Mobile Security?
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Mobile Security refers to protecting smartphones, tablets, and other
                 mobile devices—and the applications and data they handle—against
                 cybersecurity threats. As organizations increasingly rely on mobile
@@ -187,7 +319,14 @@ const MobileSecurityContent = () => {
                 pillar of enterprise security strategy.
               </p>
 
-              <p className="font-semibold text-slate-900">
+              <p
+                className="font-semibold"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Get deep analysis to uncover your mobile application security gaps—before
                 the threat actors do.
               </p>
@@ -198,7 +337,15 @@ const MobileSecurityContent = () => {
           <aside className="flex flex-col items-stretch space-y-8">
             {/* SERVICES LIST */}
             <div className="w-full bg-[#f4f5fb] shadow-md border border-border min-h-[460px] px-6 pt-6 pb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-6">
+              <h3
+                className="mb-6"
+                style={{
+                  fontSize: "22px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our World-Class Services
               </h3>
 
@@ -209,8 +356,8 @@ const MobileSecurityContent = () => {
                   const baseClasses =
                     "w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold shadow-sm transition-colors";
                   const activeClasses = "bg-[#f58220] text-white";
-                  const inactiveClasses =
-                    "bg-white text-[#111827] hover:bg-[#f3f4ff]";
+                  const inactiveClasses = "bg-white hover:bg-[#f3f4ff]";
+                  const textColor = isActive ? "#FFFFFF" : "#121158";
 
                   return (
                     <Link
@@ -220,9 +367,13 @@ const MobileSecurityContent = () => {
                       className={`${baseClasses} ${
                         isActive ? activeClasses : inactiveClasses
                       }`}
+                      style={{
+                        fontSize: "18px",
+                        fontFamily: "Roboto, sans-serif",
+                      }}
                     >
-                      <span>{service.title}</span>
-                      <ArrowRight className="w-4 h-4" />
+                      <span style={{ color: textColor }}>{service.title}</span>
+                      <ArrowRight className="w-4 h-4" style={{ color: textColor }} />
                     </Link>
                   );
                 })}

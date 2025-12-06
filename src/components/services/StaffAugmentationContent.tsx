@@ -25,6 +25,7 @@ const services = [
   { title: "Audit & Compliance", href: "/services/audit-compliance" },
   { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" }, // current page
 ];
+
 const StaffAugmentationContent = () => {
   const [activeService, setActiveService] = useState("/services/staff-augmentation");
 
@@ -51,21 +52,42 @@ const StaffAugmentationContent = () => {
             </div>
 
             {/* ================= CONTENT AREA (Dark Text) ================= */}
-            <div className="space-y-8 text-base md:text-lg text-[#111111] leading-relaxed">
+            <div className="space-y-8 leading-relaxed">
 
               {/* INTRO */}
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-3">
+                <h2
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.75rem",
+                  }}
+                >
                   Staff Augmentation
                 </h2>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   In today’s constantly evolving IT landscape, having the right talent on your
                   team can make all the difference in executing critical projects successfully.
                   At eDataForce, we understand that the key to success isn’t just operational 
                   excellence—it’s about having expert guidance and specialized skills to navigate 
                   complex business initiatives.
                 </p>
-                <p className="mt-2">
+                <p
+                  className="mt-2"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Our staff augmentation services are designed to provide your organization with 
                   the right talent to meet the demands of your most challenging projects, from 
                   short-term needs to long-term goals.
@@ -74,15 +96,36 @@ const StaffAugmentationContent = () => {
 
               {/* WHY EDATAFORCE */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.5rem",
+                  }}
+                >
                   Why Choose eDataForce for Staff Augmentation?
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   What sets successful organizations apart isn’t just their ability to execute 
                   projects, but the expert advice and strategic insights that drive them forward. 
                   At eDataForce, we don’t just offer staffing solutions—we offer a partnership.
                 </p>
-                <p className="mt-2">
+                <p
+                  className="mt-2"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   With eDataForce, you get more than just a resource—you get a trusted advisor 
                   who understands your business, your challenges, and your goals.
                 </p>
@@ -90,10 +133,24 @@ const StaffAugmentationContent = () => {
 
               {/* TAILORED TALENT SOLUTIONS */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.5rem",
+                  }}
+                >
                   Tailored Talent Solutions
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Resource needs can fluctuate, and we understand how critical it is for IT 
                   organizations to have reliable, flexible access to the best talent. Our staff 
                   augmentation services give you peace of mind by thoroughly vetting and placing 
@@ -103,55 +160,76 @@ const StaffAugmentationContent = () => {
 
               {/* SERVICES LIST */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-[#0a0a0a] mb-3">
+                <h3
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                    marginBottom: "0.75rem",
+                  }}
+                >
                   Our Comprehensive Staff Augmentation Services Cover:
                 </h3>
-                <ul className="space-y-3 list-disc list-inside">
+                <ul
+                  className="space-y-3 list-disc list-inside"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">Web Development:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Web Development:
+                    </span>{" "}
                     Front-end and back-end developers for scalable, secure applications.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">Network Administrators:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Network Administrators:
+                    </span>{" "}
                     Experts who ensure secure, resilient network infrastructure.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">UNIX Administrators:</span>{" "}
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      UNIX Administrators:
+                    </span>{" "}
                     Professionals maintaining UNIX environments with high availability.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Security Administration:
                     </span>{" "}
                     Specialists who implement and manage proactive cybersecurity measures.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Project Management (PMI-certified):
                     </span>{" "}
                     Leaders who keep projects on time, on budget, and high quality.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
-                      Database Management & Administration:
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Database Management &amp; Administration:
                     </span>{" "}
                     Experts who ensure efficient and secure data ecosystems.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
-                      Data Mining, Warehousing & BI:
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      Data Mining, Warehousing &amp; BI:
                     </span>{" "}
                     Professionals who convert data into business-transforming insights.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
+                    <span className="font-semibold" style={{ color: "#000000" }}>
                       Cloud Solutions:
                     </span>{" "}
-                    Engineers skilled in AWS, Azure, and Google Cloud migrations & management.
+                    Engineers skilled in AWS, Azure, and Google Cloud migrations &amp; management.
                   </li>
                   <li>
-                    <span className="font-semibold text-[#0a0a0a]">
-                      AI & Machine Learning:
+                    <span className="font-semibold" style={{ color: "#000000" }}>
+                      AI &amp; Machine Learning:
                     </span>{" "}
                     Specialists implementing intelligent automation and predictive models.
                   </li>
@@ -167,7 +245,15 @@ const StaffAugmentationContent = () => {
             {/* SERVICES LIST BOX */}
             <div className="w-full bg-[#f4f5fb] shadow-md border border-border 
                             min-h-[460px] px-6 pt-6 pb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-6">
+              <h3
+                className="mb-6"
+                style={{
+                  fontSize: "22px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our World-Class Services
               </h3>
 
@@ -175,21 +261,27 @@ const StaffAugmentationContent = () => {
                 {services.map((service) => {
                   const isActive = activeService === service.href;
 
+                  const baseClasses =
+                    "w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold shadow-sm transition-colors";
+                  const activeClasses = "bg-[#f58220] text-white";
+                  const inactiveClasses = "bg-white hover:bg-[#f3f4ff]";
+                  const textColor = isActive ? "#FFFFFF" : "#121158";
+
                   return (
                     <Link
                       key={service.href}
                       to={service.href}
                       onClick={() => setActiveService(service.href)}
-                      className={`w-full flex items-center justify-between px-6 py-4 
-                                  text-sm md:text-base font-semibold shadow-sm transition-colors
-                                  ${
-                                    isActive
-                                      ? "bg-[#f58220] text-white"
-                                      : "bg-white text-[#111827] hover:bg-[#f3f4ff]"
-                                  }`}
+                      className={`${baseClasses} ${
+                        isActive ? activeClasses : inactiveClasses
+                      }`}
+                      style={{
+                        fontSize: "18px",
+                        fontFamily: "Roboto, sans-serif",
+                      }}
                     >
-                      <span>{service.title}</span>
-                      <ArrowRight className="w-4 h-4" />
+                      <span style={{ color: textColor }}>{service.title}</span>
+                      <ArrowRight className="w-4 h-4" style={{ color: textColor }} />
                     </Link>
                   );
                 })}

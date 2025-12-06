@@ -23,7 +23,7 @@ const services = [
   { title: "Application Security", href: "/services/application-security" },
   { title: "Network Infrastructure Security", href: "/services/network-security" },
   { title: "Audit & Compliance", href: "/services/audit-compliance" },
-  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" }, // current page
+  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" },
 ];
 
 const NetworkSecurityContent = () => {
@@ -47,34 +47,73 @@ const NetworkSecurityContent = () => {
             </div>
 
             {/* TEXT CONTENT */}
-            <div className="space-y-7 text-base md:text-lg text-slate-800 leading-relaxed">
+            <div className="space-y-7 leading-relaxed">
 
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+              <h2
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Network Infrastructure Security
               </h2>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Our technical expertise goes far beyond traditional vulnerability scanning. 
                 We conduct rigorous, real-world assessments to uncover actionable external 
                 and internal threats impacting your network infrastructure.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 As technology rapidly evolves, so do threats. Our certified penetration 
                 testers deliver deep, comprehensive testing that exceeds standard 
                 vulnerability assessment methodologies.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Our process exposes hidden attack vectors, validates exploitability, 
                 and documents vulnerabilities with detailed Proof of Concept (PoC) evidence.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Network Infrastructure Security Services
               </h3>
 
-              <ul className="list-disc list-inside space-y-2">
+              <ul
+                className="list-disc list-inside space-y-2"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 <li>Network Vulnerability Assessment</li>
                 <li>Network Penetration Testing</li>
                 <li>Configuration Audit</li>
@@ -82,32 +121,71 @@ const NetworkSecurityContent = () => {
                 <li>Wireless Penetration Testing</li>
               </ul>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Network Vulnerability Assessment
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Rapid digital transformation and evolving threat landscapes have introduced 
                 significant security challenges. Varutra’s vulnerability assessment services 
                 help organizations detect, classify, and prioritize vulnerabilities, while 
                 offering ongoing support for timely remediation.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 We perform both internal and external assessments using industry-leading open 
                 source and commercial tools, complemented by strong manual validation.
               </p>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Vulnerabilities are analyzed based on business impact and delivered along with 
                 clear, actionable mitigation steps.
               </p>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 The Varutra Advantage
               </h3>
 
-              <ul className="list-disc list-inside space-y-2">
+              <ul
+                className="list-disc list-inside space-y-2"
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 <li>
                   Ensures business continuity by identifying network-level risks that impact 
                   availability and operations.
@@ -129,11 +207,24 @@ const NetworkSecurityContent = () => {
                 </li>
               </ul>
 
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-900">
+              <h3
+                style={{
+                  fontSize: "24px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 What Is Network Security?
               </h3>
 
-              <p>
+              <p
+                style={{
+                  fontSize: "18px",
+                  fontFamily: "Roboto, sans-serif",
+                  color: "#000000",
+                }}
+              >
                 Network security is a combination of technologies, processes, and practices 
                 designed to safeguard an organization’s network infrastructure. It ensures 
                 the reliability, confidentiality, and integrity of systems by preventing 
@@ -147,29 +238,42 @@ const NetworkSecurityContent = () => {
 
             {/* SERVICES LIST */}
             <div className="w-full bg-[#f4f5fb] border border-border shadow-md min-h-[460px] px-6 pt-6 pb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-6">
+              <h3
+                className="mb-6"
+                style={{
+                  fontSize: "22px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our World-Class Services
               </h3>
 
               <div className="flex flex-col gap-4">
                 {services.map((service) => {
                   const isActive = activeService === service.href;
+                  const baseClasses =
+                    "w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold transition-colors shadow-sm";
+                  const activeClasses = "bg-[#f58220] text-white";
+                  const inactiveClasses = "bg-white hover:bg-[#f3f4ff]";
+                  const textColor = isActive ? "#FFFFFF" : "#121158";
 
                   return (
                     <Link
                       key={service.href}
                       to={service.href}
                       onClick={() => setActiveService(service.href)}
-                      className={`w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold transition-colors shadow-sm
-                        ${
-                          isActive
-                            ? "bg-[#f58220] text-white"
-                            : "bg-white text-[#111827] hover:bg-[#f3f4ff]"
-                        }
-                      `}
+                      className={`${baseClasses} ${
+                        isActive ? activeClasses : inactiveClasses
+                      }`}
+                      style={{
+                        fontSize: "18px",
+                        fontFamily: "Roboto, sans-serif",
+                      }}
                     >
-                      {service.title}
-                      <ArrowRight className="w-4 h-4" />
+                      <span style={{ color: textColor }}>{service.title}</span>
+                      <ArrowRight className="w-4 h-4" style={{ color: textColor }} />
                     </Link>
                   );
                 })}

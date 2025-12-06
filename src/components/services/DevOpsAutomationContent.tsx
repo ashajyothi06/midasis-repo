@@ -22,7 +22,7 @@ const services = [
   { title: "Application Security", href: "/services/application-security" },
   { title: "Network Infrastructure Security", href: "/services/network-security" },
   { title: "Audit & Compliance", href: "/services/audit-compliance" },
-  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" }, // current page
+  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" },
 ];
 
 const DevOpsAutomationContent = () => {
@@ -43,13 +43,27 @@ const DevOpsAutomationContent = () => {
             </div>
 
             {/* TEXT CONTENT */}
-            <div className="space-y-7 text-base md:text-lg text-slate-800 leading-relaxed">
+            <div className="space-y-7 leading-relaxed">
               {/* Intro */}
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+                <h2
+                  className="mb-3"
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                  }}
+                >
                   DevOps and Automation Services: Accelerate Your Digital Transformation
                 </h2>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   In today’s fast-paced business environment, the ability to develop,
                   test, and deploy software rapidly while maintaining quality is
                   critical. At eDataForce, we offer comprehensive DevOps and Automation
@@ -63,10 +77,24 @@ const DevOpsAutomationContent = () => {
 
               {/* Why choose */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-2">
+                <h3
+                  className="mb-2"
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                  }}
+                >
                   Why Choose eDataForce for DevOps and Automation?
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   We understand that efficient operations and quick deployment cycles
                   are key to success in the digital era. Our DevOps services are
                   focused on fostering collaboration between development and
@@ -80,10 +108,25 @@ const DevOpsAutomationContent = () => {
 
               {/* Key Areas of Expertise */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-3">
+                <h3
+                  className="mb-3"
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                  }}
+                >
                   Key Areas of Expertise
                 </h3>
-                <ul className="space-y-3 list-disc list-inside">
+                <ul
+                  className="space-y-3 list-disc list-inside"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   <li>
                     <span className="font-semibold text-slate-900">
                       Continuous Integration/Continuous Deployment (CI/CD):
@@ -123,10 +166,25 @@ const DevOpsAutomationContent = () => {
 
               {/* Benefits */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-3">
+                <h3
+                  className="mb-3"
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                  }}
+                >
                   Benefits of DevOps and Automation
                 </h3>
-                <ul className="space-y-3 list-disc list-inside">
+                <ul
+                  className="space-y-3 list-disc list-inside"
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   <li>
                     <span className="font-semibold text-slate-900">
                       Faster Time-to-Market:
@@ -160,10 +218,24 @@ const DevOpsAutomationContent = () => {
 
               {/* Tailored solutions */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-2">
+                <h3
+                  className="mb-2"
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                  }}
+                >
                   Tailored Solutions for Every Industry
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   Our DevOps experts work with clients across a variety of industries,
                   including finance, healthcare, telecommunications, and retail.
                   Whether you’re building a new infrastructure from the ground up or
@@ -174,10 +246,24 @@ const DevOpsAutomationContent = () => {
 
               {/* Why eDataForce */}
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-2">
+                <h3
+                  className="mb-2"
+                  style={{
+                    fontSize: "24px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "700",
+                    color: "#1B1F2E",
+                  }}
+                >
                   Why eDataForce for DevOps?
                 </h3>
-                <p>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                >
                   With eDataForce, you get more than just a service provider—you get a
                   trusted partner who is invested in your long-term success. Our DevOps
                   and Automation Services enable your business to operate at peak
@@ -194,7 +280,15 @@ const DevOpsAutomationContent = () => {
           <aside className="flex flex-col items-stretch space-y-8">
             {/* SERVICES LIST CARD – same style as other pages */}
             <div className="w-full bg-[#f4f5fb] shadow-md border border-border min-h-[460px] px-6 pt-6 pb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-6">
+              <h3
+                className="mb-6"
+                style={{
+                  fontSize: "22px",
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "700",
+                  color: "#1B1F2E",
+                }}
+              >
                 Our World-Class Services
               </h3>
 
@@ -206,8 +300,8 @@ const DevOpsAutomationContent = () => {
                     "w-full flex items-center justify-between px-6 py-4 text-sm md:text-base font-semibold shadow-sm transition-colors";
 
                   const activeClasses = "bg-[#f58220] text-white";
-                  const inactiveClasses =
-                    "bg-white text-[#111827] hover:bg-[#f3f4ff]";
+                  const inactiveClasses = "bg-white hover:bg-[#f3f4ff]";
+                  const textColor = isActive ? "#FFFFFF" : "#121158";
 
                   return (
                     <Link
@@ -216,9 +310,13 @@ const DevOpsAutomationContent = () => {
                       className={`${baseClasses} ${
                         isActive ? activeClasses : inactiveClasses
                       }`}
+                      style={{
+                        fontSize: "18px",
+                        fontFamily: "Roboto, sans-serif",
+                      }}
                     >
-                      <span>{service.title}</span>
-                      <ArrowRight className="w-4 h-4" />
+                      <span style={{ color: textColor }}>{service.title}</span>
+                      <ArrowRight className="w-4 h-4" style={{ color: textColor }} />
                     </Link>
                   );
                 })}
