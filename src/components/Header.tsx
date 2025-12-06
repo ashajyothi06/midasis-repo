@@ -10,6 +10,9 @@ const navItems = [
   { label: "CONTACT", href: "/contact" },
 ];
 
+// =============================
+// UPDATED — Added 6 new services
+// =============================
 const serviceDropdownItems = [
   { label: "AI Services & Products", href: "/services/ai-services" },
   { label: "Project Services", href: "/services/project-services" },
@@ -19,6 +22,16 @@ const serviceDropdownItems = [
   { label: "Professional Consulting", href: "/services/professional-consulting" },
   { label: "Application Maintenance & Management", href: "/services/application-maintenance" },
   { label: "DevOps And Automation Services", href: "/services/devops-automation" },
+
+  // ----------------------------
+  // 🚀 Added new Cyber Security Services
+  // ----------------------------
+  { label: "Cloud Security", href: "/services/cloud-security" },
+  { label: "Mobile Security", href: "/services/mobile-security" },
+  { label: "Application Security", href: "/services/application-security" },
+  { label: "Network Security", href: "/services/network-security" },
+  { label: "Audit & Compliance", href: "/services/audit-and-compliance" },
+  { label: "SOC & Global Threat Management", href: "/services/soc-global-threat-management" },
 ];
 
 const Header = () => {
@@ -35,6 +48,7 @@ const Header = () => {
   return (
     <header className="bg-card w-full py-4 px-4 sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto flex justify-between items-center">
+        
         {/* Brand */}
         <Link to="/" className="flex items-center">
           <span className="text-3xl font-bold">
@@ -70,7 +84,7 @@ const Header = () => {
                   {/* Desktop dropdown */}
                   {servicesDropdownOpen && (
                     <div
-                      className="absolute top-full left-0 mt-2 w-72 bg-card rounded-lg shadow-xl border border-border py-2 z-50"
+                      className="absolute top-full left-0 mt-2 w-80 bg-card rounded-lg shadow-xl border border-border py-2 z-50"
                       onMouseEnter={() => setServicesDropdownOpen(true)}
                       onMouseLeave={() => setServicesDropdownOpen(false)}
                     >
@@ -103,7 +117,7 @@ const Header = () => {
           <Search className="w-5 h-5 text-navy hover:text-accent cursor-pointer" />
         </nav>
 
-        {/* Mobile Menu Button – square border around hamburger */}
+        {/* Mobile Menu Button */}
         <button
           className="lg:hidden text-navy border border-border rounded-md p-2 flex items-center justify-center"
           onClick={() => setMobileMenuOpen((prev) => !prev)}
@@ -112,7 +126,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile overlay + sliding drawer from LEFT */}
+      {/* Mobile Drawer */}
       <div
         className={cn(
           "lg:hidden fixed inset-0 z-40 transition-opacity duration-300",
@@ -128,7 +142,7 @@ const Header = () => {
           )}
           onClick={(e) => e.stopPropagation()}
         >
-          {/* Drawer header with logo + close button */}
+          {/* Drawer header */}
           <div className="flex items-center justify-between mb-8">
             <span className="text-2xl font-bold">
               <span className="text-navy">edata</span>
@@ -142,7 +156,7 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Mobile nav links (no dropdown) */}
+          {/* Mobile nav links */}
           <div className="space-y-1">
             {navItems.map((item) => (
               <Link

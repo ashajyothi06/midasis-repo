@@ -28,76 +28,115 @@ const StaffingSection = () => {
   const activeContent = tabs.find((tab) => tab.id === activeTab);
 
   return (
-    <section className="py-20 bg-secondary">
-      <div className="container mx-auto px-4">
+    <>
+      {/* Inject Required Fonts + Typography Rules */}
+      <style>
+        {`
+          @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap");
 
-        {/* Section Headings */}
-        <div className="text-center mb-12">
-          <p className="section-label mb-3">EDATAFORCE CONSULTING LLC</p>
+          /* Main heading */
+          #staffing .main-heading {
+            font-family: "Roboto" !important;
+            font-size: 18px !important;
+            font-weight: 500;
+            color: #FF6000 !important;
+          }
 
-          {/* Force 2-line layout on mobile */}
-          <h2 className="font-bold text-navy text-[1.9rem] sm:text-4xl leading-tight">
-            Expert Staffing Solutions <br className="sm:hidden" />
-            and Strategic Talent Placements
-          </h2>
-        </div>
+          /* Next heading */
+          #staffing .section-heading {
+            font-family: "Poppins" !important;
+            font-size: 26px !important;
+            font-weight: 700 !important;
+            color: #121158 !important;
+          }
 
-        {/* Tabs */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 mb-12">
-          {tabs.map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={cn(
-                "flex items-center gap-3 px-6 py-3 font-bold transition-all border-b-2",
-                activeTab === tab.id
-                  ? "text-navy border-navy"
-                  : "text-[#333] border-transparent hover:text-navy"
-              )}
-            >
-              {/* Larger, thicker icons */}
-              <tab.icon className="w-10 h-10 stroke-[2.5]" />
-              <span className="text-sm sm:text-base font-bold">{tab.label}</span>
-            </button>
-          ))}
-        </div>
+          /* Tab label text (18px Poppins) */
+          #staffing .tab-label {
+            font-family: "Poppins" !important;
+            font-size: 18px !important;
+            font-weight: 600 !important;
+          }
 
-        {/* Content Section */}
-        {activeContent && (
-          <div
-            className={cn(
-              "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
-              activeContent.imagePosition === "right" && "lg:grid-flow-dense"
-            )}
-          >
-            {/* Image */}
-            <div
-              className={cn(
-                activeContent.imagePosition === "right" && "lg:col-start-2"
-              )}
-            >
-              <img
-                src={activeContent.image}
-                alt={activeContent.label}
-                className="w-full object-cover shadow-xl" // sharp edges — no rounding
-              />
-            </div>
+          /* Body content text */
+          #staffing .body-text {
+            font-family: "Roboto" !important;
+            font-size: 18px !important;
+            color: #000000 !important;
+          }
+        `}
+      </style>
 
-            {/* Text */}
-            <div
-              className={cn(
-                activeContent.imagePosition === "right" && "lg:col-start-1"
-              )}
-            >
-              <p className="text-[#000] leading-relaxed text-lg sm:text-xl">
-                {activeContent.content}
-              </p>
-            </div>
+      <section id="staffing" className="py-20 bg-secondary">
+        <div className="container mx-auto px-4">
+
+          {/* Section Headings */}
+          <div className="text-center mb-12">
+            <p className="main-heading mb-3">
+              EDATAFORCE CONSULTING LLC
+            </p>
+
+            <h2 className="section-heading leading-tight">
+              Expert Staffing Solutions <br className="sm:hidden" />
+              and Strategic Talent Placements
+            </h2>
           </div>
-        )}
 
-      </div>
-    </section>
+          {/* Tabs */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 mb-12">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={cn(
+                  "flex items-center gap-3 px-6 py-3 transition-all border-b-2",
+                  activeTab === tab.id
+                    ? "text-navy border-navy"
+                    : "text-[#333] border-transparent hover:text-navy"
+                )}
+              >
+                <tab.icon className="w-10 h-10 stroke-[2.5]" />
+                <span className="tab-label">{tab.label}</span>
+              </button>
+            ))}
+          </div>
+
+          {/* Content Section */}
+          {activeContent && (
+            <div
+              className={cn(
+                "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
+                activeContent.imagePosition === "right" && "lg:grid-flow-dense"
+              )}
+            >
+              {/* Image */}
+              <div
+                className={cn(
+                  activeContent.imagePosition === "right" && "lg:col-start-2"
+                )}
+              >
+                <img
+                  src={activeContent.image}
+                  alt={activeContent.label}
+                  className="w-full object-cover shadow-xl"
+                />
+              </div>
+
+              {/* Text */}
+              <div
+                className={cn(
+                  activeContent.imagePosition === "right" && "lg:col-start-1"
+                )}
+              >
+                <p className="body-text leading-relaxed">
+                  {activeContent.content}
+                </p>
+              </div>
+            </div>
+          )}
+
+        </div>
+      </section>
+    </>
   );
 };
 

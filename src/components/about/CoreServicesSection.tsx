@@ -40,15 +40,37 @@ const CoreServicesSection = () => {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-sm tracking-[0.25em] text-[#f58220] font-extrabold mb-3">
+          <p
+            style={{
+              fontSize: "18px",
+              fontFamily: "Roboto, sans-serif",
+              color: "#FF6000",
+              fontWeight: "700",
+              letterSpacing: "0.25em",
+            }}
+          >
             EDATAFORCE CONSULTING LLC
           </p>
 
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#11185a]">
+          <h2
+            style={{
+              fontSize: "26px",
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "700",
+              color: "#121158",
+            }}
+          >
             Core Services
           </h2>
 
-          <p className="text-black max-w-3xl mx-auto mt-4 text-base sm:text-lg leading-relaxed">
+          <p
+            className="max-w-3xl mx-auto mt-4 leading-relaxed"
+            style={{
+              fontSize: "18px",
+              fontFamily: "Roboto, sans-serif",
+              color: "#000000",
+            }}
+          >
             At eDataForce, we specialize in a range of services that address the 
             diverse needs of businesses across industries.
           </p>
@@ -66,11 +88,26 @@ const CoreServicesSection = () => {
 
               {/* Text Block */}
               <div>
-                <h3 className="text-xl font-bold text-[#11185a] mb-2">
+                <h3
+                  style={{
+                    fontSize: "21px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "600",
+                    color: "#1B1F2E",
+                  }}
+                  className="mb-2"
+                >
                   {service.title}
                 </h3>
 
-                <p className="text-black leading-relaxed text-[15px] sm:text-[16px]">
+                <p
+                  style={{
+                    fontSize: "18px",
+                    fontFamily: "Roboto, sans-serif",
+                    color: "#000000",
+                  }}
+                  className="leading-relaxed"
+                >
                   {service.description}
                 </p>
               </div>

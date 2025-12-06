@@ -33,18 +33,51 @@ const steps = [
 const ProcessSection = () => {
   return (
     <section className="relative py-16 sm:py-20 lg:py-24 bg-[#f5f4ff]">
+      <style>
+        {`
+          @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+          .main-heading {
+            font-family: 'Roboto', sans-serif !important;
+            font-size: 18px !important;
+            color: #FF6000 !important;
+            letter-spacing: 0.25em;
+          }
+
+          .section-heading {
+            font-family: 'Poppins', sans-serif !important;
+            font-size: 26px !important;
+            font-weight: 700;
+            color: #121158 !important;
+          }
+
+          .step-title {
+            font-family: 'Poppins', sans-serif !important;
+            font-size: 20px !important;
+            font-weight: 600 !important;
+            color: #1B1F2F !important;
+          }
+
+          .step-description {
+            font-family: 'Roboto', sans-serif !important;
+            font-size: 16px !important;
+            color: #000000 !important;
+          }
+        `}
+      </style>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
-        <div className="text-center mb-12 sm:mb-14 lg:mb-16">
-          <p className="text-[10px] sm:text-xs tracking-[0.25em] text-[#f58220] font-semibold mb-3">
-            EDATAFORCE CONSULTING LLC
-          </p>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#15172b]">
+
+        {/* Headings */}
+        <div className="text-center mb-14">
+          <p className="main-heading mb-3">EDATAFORCE CONSULTING LLC</p>
+
+          <h2 className="section-heading">
             Industry Best Practices to the Core
           </h2>
         </div>
 
-        {/* Curved dashed connector (desktop only) */}
+        {/* Curved Line (Desktop Only) */}
         <div className="pointer-events-none absolute left-0 right-0 top-[44%] hidden lg:block">
           <svg
             width="100%"
@@ -58,49 +91,44 @@ const ProcessSection = () => {
           </svg>
         </div>
 
-        {/* Steps */}
-        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+        {/* Steps Grid */}
+        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {steps.map((step, index) => {
-            // stagger up/down on large screens: 1↓ 2↑ 3↓ 4↑
             const offsetClass =
               index % 2 === 0 ? "lg:translate-y-6" : "lg:-translate-y-6";
 
             return (
               <div key={step.number} className={`relative ${offsetClass}`}>
-                <div className="rounded-2xl bg-white shadow-sm hover:shadow-lg lg:hover:shadow-xl transition-shadow overflow-hidden">
-                  {/* Image with number badge over it */}
+                <div className="bg-white rounded-none shadow-md hover:shadow-xl transition-shadow overflow-hidden">
+
+                  {/* Image */}
                   <div className="relative">
-                    <div className="h-48 sm:h-56 lg:h-[230px] overflow-hidden">
+                    <div className="h-48 sm:h-56 lg:h-[230px] overflow-hidden rounded-none">
                       <img
                         src={step.image}
                         alt={step.title}
-                        className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                        className="h-full w-full object-cover transition-transform duration-500 hover:scale-105 rounded-none"
                       />
                     </div>
 
-                    {/* Number badge - hover on number only */}
-                    <div className="absolute -bottom-6 sm:-bottom-7 right-4 sm:right-6 group">
-                      <div
-                        className="flex h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center 
-                                   rounded-full border-4 border-white bg-[#11185a] shadow-lg 
-                                   transition-colors duration-300 group-hover:bg-[#f58220]"
-                      >
-                        <span className="text-base sm:text-lg font-bold text-white">
+                    {/* Number Badge */}
+                    <div className="absolute -bottom-6 right-6 group">
+                      <div className="flex h-14 w-14 lg:h-16 lg:w-16 items-center justify-center 
+                                      rounded-full border-4 border-white bg-[#11185a] shadow-lg 
+                                      transition-colors duration-300 group-hover:bg-[#f58220]">
+                        <span className="text-lg font-bold text-white">
                           {step.number}
                         </span>
                       </div>
                     </div>
                   </div>
 
-                  {/* Text block */}
-                  <div className="px-5 sm:px-6 pt-8 sm:pt-9 lg:pt-10 pb-6 sm:pb-8">
-                    <h3 className="mb-2 text-base sm:text-lg font-bold text-[#15172b]">
-                      {step.title}
-                    </h3>
-                    <p className="text-sm leading-relaxed text-[#4b4d63]">
-                      {step.description}
-                    </p>
+                  {/* Text */}
+                  <div className="px-6 pt-10 pb-8 rounded-none">
+                    <h3 className="step-title mb-2">{step.title}</h3>
+                    <p className="step-description leading-relaxed">{step.description}</p>
                   </div>
+
                 </div>
               </div>
             );

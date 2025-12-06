@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
+// Existing service images
 import serviceAi from "@/assets/AI-Services-img.jpg";
 import serviceProject from "@/assets/Project-Services.jpg";
 import serviceStaffing from "@/assets/Staff-Augmentation.jpg";
@@ -11,6 +12,7 @@ import serviceConsulting from "@/assets/service-consulting.jpg";
 import serviceMaintenance from "@/assets/service-maintenance.jpg";
 import serviceDevops from "@/assets/DevOps-and-Automation-Services.jpg";
 
+// Icons
 import aiIcon from "@/assets/Ai-Services-Icon.png";
 import projectIcon from "@/assets/Project-Services-Icon.png";
 import staffIcon from "@/assets/Staff-Augmentation-Icon.png";
@@ -19,6 +21,22 @@ import testingIcon from "@/assets/software-testing-icon.png";
 import consultingIcon from "@/assets/professional-consulting-icon.png";
 import maintenanceIcon from "@/assets/application-maintanance-icon.png";
 import devopsIcon from "@/assets/devops-automation.png";
+
+// Cybersecurity images
+import cloudSecurityImg from "@/assets/cybersecurity-concept-illustration.jpg";
+import mobileSecurityImg from "@/assets/mobileSecurity.png";
+import applicationSecurityImg from "@/assets/applicationSecurity.jpg";
+import networkSecurityImg from "@/assets/networkSecurity.jpg";
+import auditComplianceImg from "@/assets/compliance.jpg";
+import socThreatImg from "@/assets/SOC-global.png";
+
+// Cybersecurity icons
+import cloudIcon from "@/assets/Ai-Services-Icon.png";
+import mobileIcon from "@/assets/professional-consulting-icon.png";
+import appSecIcon from "@/assets/Project-Services-Icon.png";
+import networkIcon from "@/assets/Staff-Augmentation-Icon.png";
+import auditIcon from "@/assets/professional-consulting-icon.png";
+import socIcon from "@/assets/software-testing-icon.png";
 
 type ServiceCard = {
   title: string;
@@ -34,155 +52,149 @@ const services: ServiceCard[] = [
   { title: "Permanent Placement Service", image: servicePlacement, logo: placementIcon, href: "/services/permanent-placement" },
   { title: "Software Testing", image: serviceTesting, logo: testingIcon, href: "/services/software-testing" },
   { title: "Professional Consulting", image: serviceConsulting, logo: consultingIcon, href: "/services/professional-consulting" },
-  {
-    title: "Application Maintenance & Management",
-    image: serviceMaintenance,
-    logo: maintenanceIcon,
-    href: "/services/application-maintenance",
-  },
-  {
-    title: "DevOps and Automation Services",
-    image: serviceDevops,
-    logo: devopsIcon,
-    href: "/services/devops-automation",
-  },
+  { title: "Application Maintenance & Management", image: serviceMaintenance, logo: maintenanceIcon, href: "/services/application-maintenance" },
+  { title: "DevOps and Automation Services", image: serviceDevops, logo: devopsIcon, href: "/services/devops-automation" },
+
+  // CYBER SECURITY
+  { title: "Cloud Security", image: cloudSecurityImg, logo: cloudIcon, href: "/services/cloud-security" },
+  { title: "Mobile Application Security", image: mobileSecurityImg, logo: mobileIcon, href: "/services/mobile-security" },
+  { title: "Application Security", image: applicationSecurityImg, logo: appSecIcon, href: "/services/application-security" },
+  { title: "Network Infrastructure Security", image: networkSecurityImg, logo: networkIcon, href: "/services/network-security" },
+  { title: "Audit & Compliance", image: auditComplianceImg, logo: auditIcon, href: "/services/audit-compliance" },
+  { title: "SOC & Global Threat Management", image: socThreatImg, logo: socIcon, href: "/services/soc-global-threat" },
 ];
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-20 bg-[#f5f4ff] w-full">
-      {/* slightly reduced side padding */}
-      <div className="w-full px-2 sm:px-4 lg:px-8">
-        {/* Heading */}
-        <div className="mb-12 text-center">
-          <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-[#f58220]">
-            EDATAFORCE CONSULTING LLC
-          </p>
+    <>
+      {/* FONT + TYPOGRAPHY FIXES */}
+      <style>
+        {`
+          @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@500;600;700&display=swap");
 
-          <h2
-            className="
-              whitespace-nowrap
-              font-extrabold 
-              text-[#11153b]
-              tracking-wide
-              text-[1.9rem]
-              sm:text-[2.3rem]
-              md:text-[2.7rem]
-              lg:text-[3rem]
-            "
-          >
-            Our World-Class Services
-          </h2>
-        </div>
+          /* Top heading: Roboto 18 #FF6000 */
+          #services .main-heading {
+            font-family: "Roboto" !important;
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            color: #FF6000 !important;
+            letter-spacing: 0.25em;
+          }
 
-        {/* GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {services.map((service) => (
-            <Link
-              key={service.title}
-              to={service.href}
-              className="
-                group
-                relative
-                block
-                mx-auto
-                w-[96%]          /* slightly wider → less left/right space on mobile */
-                sm:w-full
-                overflow-hidden
-                shadow-xl
-                transition-transform
-                duration-500
-                hover:-translate-y-3
-                hover:shadow-2xl
-              "
-            >
-              <div className="relative h-[420px] sm:h-[440px] md:h-[460px] w-full">
-                {/* background image */}
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="
-                    absolute inset-0
-                    h-full w-full object-cover
-                    transition-transform duration-500
-                    group-hover:scale-110
-                  "
-                />
+          /* Section title: Poppins 26 #121158 */
+          #services .title-heading {
+            font-family: "Poppins" !important;
+            font-size: 26px !important;
+            font-weight: 700 !important;
+            color: #121158 !important;
+          }
 
-                {/* dark overlay */}
-                <div
-                  className="
-                    absolute inset-0
-                    bg-gradient-to-t
-                    from-[#11153b]/95 via-[#11153b]/60 to-transparent
-                    transition-opacity duration-500
-                  "
-                />
+          /* Service card title */
+          #services .service-title {
+            font-family: "Poppins" !important;
+            font-size: 22px !important;
+            font-weight: 600 !important;
+            color: #FFFFFF !important;
+          }
+        `}
+      </style>
 
-                {/* logo + title */}
-                <div className="absolute bottom-20 left-5 flex items-center gap-4">
+      <section id="services" className="py-20 bg-[#f5f4ff] w-full">
+        <div className="w-full px-2 sm:px-4 lg:px-8">
+          
+          {/* Section Heading */}
+          <div className="mb-12 text-center">
+            <p className="main-heading mb-3">
+              EDATAFORCE CONSULTING LLC
+            </p>
+
+            <h2 className="title-heading font-extrabold tracking-wide">
+              Our World-Class Services
+            </h2>
+          </div>
+
+          {/* GRID */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((service) => (
+              <Link
+                key={service.title}
+                to={service.href}
+                className="
+                  group relative block mx-auto
+                  w-[96%] sm:w-full
+                  overflow-hidden shadow-xl
+                  transition-transform duration-500
+                  hover:-translate-y-3 hover:shadow-2xl
+                "
+              >
+                <div className="relative h-[420px] sm:h-[440px] md:h-[460px]">
+
+                  {/* BACKGROUND IMAGE */}
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="
+                      absolute inset-0 h-full w-full object-cover
+                      transition-transform duration-500
+                      group-hover:scale-110
+                    "
+                  />
+
+                  {/* GRADIENT OVERLAY */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#11153b]/95 via-[#11153b]/60 to-transparent" />
+
+                  {/* ICON + TITLE */}
+                  <div className="absolute bottom-20 left-5 flex items-center gap-4">
+                    <div
+                      className="
+                        h-20 w-20 bg-[#11153b]
+                        flex items-center justify-center
+                        shadow-lg
+                        transition-transform duration-500
+                        group-hover:-translate-y-1 group-hover:translate-x-1
+                      "
+                    >
+                      <img src={service.logo} alt="" className="h-10 w-10 object-contain" />
+                    </div>
+
+                    <h3 className="service-title group-hover:text-[#f58220]">
+                      {service.title}
+                    </h3>
+                  </div>
+
+                  {/* READ MORE */}
                   <div
                     className="
-                      h-20 w-20
-                      flex items-center justify-center
-                      bg-[#11153b]
-                      shadow-lg
-                      transition-transform duration-500
-                      group-hover:-translate-y-1 group-hover:translate-x-1
+                      absolute bottom-6 left-5
+                      opacity-0 translate-y-2
+                      transition-all duration-300
+                      group-hover:opacity-100 group-hover:translate-y-0
                     "
                   >
-                    <img
-                      src={service.logo}
-                      alt={`${service.title} icon`}
-                      className="h-10 w-10 object-contain"
-                    />
+                    <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
+                      <span className="group-hover:underline">Read More</span>
+                      <ArrowRight className="h-5 w-5 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0" />
+                    </span>
                   </div>
-                  <h3 className="text-2xl font-semibold text-white group-hover:text-[#f58220]">
-                    {service.title}
-                  </h3>
-                </div>
 
-                {/* READ MORE – only on hover */}
-                <div
-                  className="
-                    absolute bottom-6 left-5
-                    opacity-0 translate-y-2
-                    transition-all duration-300
-                    group-hover:opacity-100 group-hover:translate-y-0
-                  "
-                >
-                  <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
-                    <span className="group-hover:underline">Read More</span>
-                    <ArrowRight
-                      className="
-                        h-5 w-5
-                        opacity-0 -translate-x-1
-                        transition-all duration-300
-                        group-hover:opacity-100 group-hover:translate-x-0
-                      "
-                    />
-                  </span>
                 </div>
-              </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* CTA */}
+          <div className="mt-12 text-center">
+            <Link to="/services">
+              <Button variant="orange" size="lg" className="px-10 py-5 font-semibold tracking-wide">
+                All Our Services
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
             </Link>
-          ))}
-        </div>
+          </div>
 
-        {/* CTA Button */}
-        <div className="mt-12 text-center">
-          <Link to="/services">
-            <Button
-              variant="orange"
-              size="lg"
-              className="px-10 py-5 font-semibold tracking-wide"
-            >
-              All Our Services
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </Link>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

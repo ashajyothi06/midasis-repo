@@ -29,7 +29,6 @@ const testimonials = [
 ];
 
 const TestimonialsSection = () => {
-  // Responsive: 1 slide on mobile, 2 on desktop
   const [pageSize, setPageSize] = useState(1);
 
   useEffect(() => {
@@ -54,18 +53,16 @@ const TestimonialsSection = () => {
   const [page, setPage] = useState(0);
   const totalPages = pages.length;
 
-  // Ensure page stays valid when resizing device
   useEffect(() => {
     if (page >= totalPages) setPage(0);
   }, [totalPages, page]);
 
-  // AUTO-SCROLL LOOP
   useEffect(() => {
     if (totalPages <= 1) return;
 
     const interval = setInterval(() => {
       setPage((prev) => (prev + 1) % totalPages);
-    }, 3000); // Slide moves every 3 sec
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [totalPages]);
@@ -73,12 +70,29 @@ const TestimonialsSection = () => {
   return (
     <section className="py-20 bg-[#f5f4ff]">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Heading */}
+
+        {/* Section Headings */}
         <div className="text-center mb-12">
-          <p className="text-xs tracking-[0.25em] text-[#f58220] font-semibold mb-3">
+          <p
+            className="font-semibold mb-3"
+            style={{
+              fontSize: "18px",
+              color: "#FF6000",
+              fontFamily: "Roboto, sans-serif",
+              letterSpacing: "0.25em",
+            }}
+          >
             EDATAFORCE CONSULTING LLC
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#15172b]">
+
+          <h2
+            style={{
+              fontSize: "26px",
+              fontFamily: "Poppins, sans-serif",
+              color: "#121158",
+              fontWeight: "700",
+            }}
+          >
             What Our Clients Say About Us
           </h2>
         </div>
@@ -97,13 +111,22 @@ const TestimonialsSection = () => {
                       key={index}
                       className="bg-white p-10 shadow-md rounded-none"
                     >
-                      {/* Title + stars */}
+                      {/* Title + Stars */}
                       <div className="mb-6 flex flex-wrap items-center gap-3">
-                        <span className="text-3xl text-[#15172b] leading-none">“</span>
-                        <h3 className="text-xl md:text-2xl font-bold text-[#15172b]">
+                        <span className="text-3xl text-[#1B1F2E] leading-none">“</span>
+
+                        <h3
+                          style={{
+                            fontSize: "20px",
+                            fontFamily: "Poppins, sans-serif",
+                            fontWeight: "600",
+                            color: "#1B1F2E",
+                          }}
+                        >
                           {testimonial.title}
                         </h3>
-                        <span className="text-3xl text-[#15172b] leading-none">„</span>
+
+                        <span className="text-3xl text-[#1B1F2E] leading-none">„</span>
 
                         <div className="flex gap-1 ml-2">
                           {[...Array(5)].map((_, i) => (
@@ -115,8 +138,15 @@ const TestimonialsSection = () => {
                         </div>
                       </div>
 
-                      {/* Text */}
-                      <p className="mb-8 text-[15px] leading-relaxed text-[#4a4c63]">
+                      {/* Body Text */}
+                      <p
+                        className="mb-8 leading-relaxed"
+                        style={{
+                          fontSize: "16px",
+                          fontFamily: "Roboto, sans-serif",
+                          color: "#000000",
+                        }}
+                      >
                         {testimonial.text}
                       </p>
 
@@ -126,13 +156,20 @@ const TestimonialsSection = () => {
                           <span>‟</span>
                           <span>‟</span>
                         </div>
+
                         <div>
-                          <p className="font-bold text-[#15172b] text-lg">
+                          <p
+                            style={{
+                              fontSize: "18px",
+                              fontFamily: "Poppins, sans-serif",
+                              fontWeight: "600",
+                              color: "#1B1F2E",
+                            }}
+                          >
                             {testimonial.author}
                           </p>
-                          <p className="text-sm text-[#7a7c9e]">
-                            {testimonial.role}
-                          </p>
+
+                          <p className="text-sm text-[#7a7c9e]">{testimonial.role}</p>
                         </div>
                       </div>
                     </div>
@@ -143,7 +180,7 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* 🔥 NO DOTS, NO BUTTONS — CLEAN AUTO SCROLLING */}
+        {/* Auto-scroll only — no buttons */}
       </div>
     </section>
   );

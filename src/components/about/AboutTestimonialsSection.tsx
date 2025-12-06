@@ -37,7 +37,6 @@ const testimonials = [
 const AboutTestimonialsSection = () => {
   const [pageSize, setPageSize] = useState(1);
 
-  // Responsive behavior
   useEffect(() => {
     const update = () =>
       setPageSize(window.innerWidth >= 1024 ? 2 : 1);
@@ -47,7 +46,6 @@ const AboutTestimonialsSection = () => {
     return () => window.removeEventListener("resize", update);
   }, []);
 
-  // Group testimonials into pages
   const pages = useMemo(() => {
     const output = [];
     for (let i = 0; i < testimonials.length; i += pageSize) {
@@ -61,13 +59,12 @@ const AboutTestimonialsSection = () => {
 
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Auto-scroll PAGE-BY-PAGE
   const startAutoScroll = () => {
     if (intervalRef.current) return;
 
     intervalRef.current = setInterval(() => {
       setPage((prev) => (prev + 1) % totalPages);
-    }, 3000); // 3 seconds
+    }, 3000);
   };
 
   const stopAutoScroll = () => {
@@ -92,10 +89,26 @@ const AboutTestimonialsSection = () => {
 
         {/* Section Heading */}
         <div className="text-center mb-14">
-          <p className="text-xs tracking-[0.25em] text-[#f58220] font-extrabold mb-3">
+          <p
+            style={{
+              fontSize: "18px",
+              fontFamily: "Roboto, sans-serif",
+              color: "#FF6000",
+              letterSpacing: "0.25em",
+              fontWeight: "700",
+            }}
+          >
             EDATAFORCE CONSULTING LLC
           </p>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-[#11185a]">
+
+          <h2
+            style={{
+              fontSize: "26px",
+              fontFamily: "Poppins, sans-serif",
+              color: "#121158",
+              fontWeight: "700",
+            }}
+          >
             What Our Clients Say About Us
           </h2>
         </div>
@@ -108,7 +121,9 @@ const AboutTestimonialsSection = () => {
           >
             {pages.map((group, i) => (
               <div key={i} className="w-full flex-shrink-0">
-                <div className={`grid gap-10 ${pageSize === 2 ? "lg:grid-cols-2" : "grid-cols-1"}`}>
+                <div
+                  className={`grid gap-10 ${pageSize === 2 ? "lg:grid-cols-2" : "grid-cols-1"}`}
+                >
                   {group.map((t, index) => (
                     <article
                       key={index}
@@ -123,29 +138,65 @@ const AboutTestimonialsSection = () => {
                         />
 
                         <div>
-                          <h3 className="text-2xl font-bold text-[#11185a] mb-1">
+                          {/* Quote Title */}
+                          <h3
+                            style={{
+                              fontSize: "20px",
+                              fontFamily: "Poppins, sans-serif",
+                              color: "#121158",
+                              fontWeight: "600",
+                            }}
+                            className="mb-1"
+                          >
                             “ {t.quote} ”
                           </h3>
 
                           <div className="flex gap-1">
                             {[...Array(5)].map((_, i) => (
-                              <Star key={i} className="w-4 h-4 text-[#f6b400] fill-[#f6b400]" />
+                              <Star
+                                key={i}
+                                className="w-4 h-4 text-[#f6b400] fill-[#f6b400]"
+                              />
                             ))}
                           </div>
                         </div>
                       </div>
 
                       {/* MAIN TEXT */}
-                      <p className="text-black leading-relaxed mb-8">
+                      <p
+                        style={{
+                          fontSize: "18px",
+                          fontFamily: "Roboto, sans-serif",
+                          color: "#000000",
+                        }}
+                        className="leading-relaxed mb-8"
+                      >
                         {t.text}
                       </p>
 
                       {/* AUTHOR */}
                       <div className="flex items-center gap-4">
-                        <span className="text-4xl text-[#11185a]">”</span>
+                        <span className="text-4xl text-[#121158]">”</span>
                         <div>
-                          <p className="font-bold text-[#11185a] text-lg">{t.author}</p>
-                          <p className="text-black/70 text-sm">{t.title}</p>
+                          <p
+                            style={{
+                              fontSize: "18px",
+                              fontFamily: "Poppins, sans-serif",
+                              fontWeight: "600",
+                              color: "#1B1F2E",
+                            }}
+                          >
+                            {t.author}
+                          </p>
+                          <p
+                            style={{
+                              fontSize: "16px",
+                              fontFamily: "Roboto, sans-serif",
+                              color: "#000000",
+                            }}
+                          >
+                            {t.title}
+                          </p>
                         </div>
                       </div>
                     </article>

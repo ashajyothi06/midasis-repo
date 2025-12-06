@@ -13,10 +13,18 @@ const services = [
   { title: "Permanent Placement Service", href: "/services/permanent-placement" },
   { title: "Software Testing", href: "/services/software-testing" },
   { title: "Professional Consulting", href: "/services/professional-consulting" },
-  { title: "Application Maintenance & Management", href: "/services/application-maintenance" },
+  {
+    title: "Application Maintenance & Management",
+    href: "/services/application-maintenance",
+  },
   { title: "DevOps And Automation Services", href: "/services/devops-automation" },
+  { title: "Cloud Security", href: "/services/cloud-security" },
+  { title: "Mobile Application Security", href: "/services/mobile-security" },
+  { title: "Application Security", href: "/services/application-security" },
+  { title: "Network Infrastructure Security", href: "/services/network-security" },
+  { title: "Audit & Compliance", href: "/services/audit-compliance" },
+  { title: "SOC & Global Threat Management", href: "/services/soc-global-threat" }, // current page
 ];
-
 const StaffAugmentationContent = () => {
   const [activeService, setActiveService] = useState("/services/staff-augmentation");
 
