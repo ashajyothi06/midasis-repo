@@ -52,7 +52,7 @@ const ApplicationSecurityContent = () => {
               <h2
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   color: "#1B1F2E",
                   fontWeight: "700",
                 }}
@@ -61,21 +61,21 @@ const ApplicationSecurityContent = () => {
               </h2>
 
               {/* BODY TEXT */}
-              <p style={{ fontSize: "18px", fontFamily: "Roboto, sans-serif", color: "#000000" }}>
+              <p style={{ fontSize: "18px", fontFamily: "Roboto", color: "#000000" }}>
                 Secure software applications are essential in today’s digital-first world.
                 Web applications run 24/7 and are used by customers, employees, partners,
                 and suppliers—making them one of the most targeted components in an
                 organization’s infrastructure.
               </p>
 
-              <p style={{ fontSize: "18px", fontFamily: "Roboto, sans-serif", color: "#000000" }}>
+              <p style={{ fontSize: "18px", fontFamily: "Roboto", color: "#000000" }}>
                 While many products claim to protect application-layer data, hackers continue
                 finding ways to exploit vulnerabilities and compromise sensitive information.
                 Strengthening application security requires a secure development lifecycle
                 combined with advanced testing methodologies.
               </p>
 
-              <p style={{ fontSize: "18px", fontFamily: "Roboto, sans-serif", color: "#000000" }}>
+              <p style={{ fontSize: "18px", fontFamily: "Roboto", color: "#000000" }}>
                 Varutra’s application security experts adopt an end-to-end, SDLC-integrated
                 approach to ensuring your applications remain resilient against modern threats.
                 Our methodologies cover security controls across all stages of the software
@@ -87,7 +87,7 @@ const ApplicationSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   color: "#1B1F2E",
                   fontWeight: "700",
                 }}
@@ -108,7 +108,7 @@ const ApplicationSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   color: "#1B1F2E",
                   fontWeight: "700",
                 }}
@@ -116,7 +116,7 @@ const ApplicationSecurityContent = () => {
                 Application Security Testing
               </h3>
 
-              <p style={{ fontSize: "18px", fontFamily: "Roboto, sans-serif", color: "#000000" }}>
+              <p style={{ fontSize: "18px", fontFamily: "Roboto", color: "#000000" }}>
                 Our consultants simulate real-world attacker behavior to identify vulnerabilities
                 within your applications. This includes OWASP Top 10 risks, business logic
                 weaknesses, and architecture flaws.
@@ -145,7 +145,7 @@ const ApplicationSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   color: "#1B1F2E",
                   fontWeight: "700",
                 }}
@@ -169,7 +169,7 @@ const ApplicationSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   color: "#1B1F2E",
                   fontWeight: "700",
                 }}
@@ -196,7 +196,7 @@ const ApplicationSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -224,7 +224,7 @@ const ApplicationSecurityContent = () => {
                       `}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>
@@ -256,7 +256,7 @@ const ApplicationSecurityContent = () => {
                 <Link to="/contact" className="w-full max-w-[220px]">
                   <Button
                     variant="outline"
-                    className="w-full gap-2 py-3 border-white text-white hover:bg-white/15"
+                    className="w-full gap-2 py-3 border-white text-white hover:bg_white/15"
                   >
                     Contact Us
                     <ArrowRight className="w-4 h-4" />

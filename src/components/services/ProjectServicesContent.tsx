@@ -50,7 +50,7 @@ const ProjectServicesContent = () => {
               <h2
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -61,7 +61,7 @@ const ProjectServicesContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -77,7 +77,7 @@ const ProjectServicesContent = () => {
                 className="mt-6"
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -89,7 +89,7 @@ const ProjectServicesContent = () => {
                 className="space-y-4 list-disc list-inside"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -134,7 +134,7 @@ const ProjectServicesContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -145,7 +145,7 @@ const ProjectServicesContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -164,7 +164,7 @@ const ProjectServicesContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -192,7 +192,7 @@ const ProjectServicesContent = () => {
                       }`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>

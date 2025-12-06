@@ -48,7 +48,7 @@ const MobileSecurityContent = () => {
               <h2
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -59,7 +59,7 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -73,32 +73,33 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
-                Varutra leverages deep technical, operational, and consulting expertise to
-                assess the security posture of mobile applications and the devices they run
-                on. Our goal is to protect the sensitive information that mobile
-                applications store, process, and transmit.
+                At eDataForce, we bring deep technical, operational, and consulting
+                expertise to assess the security posture of mobile applications and the
+                devices they run on. Our goal is to protect the sensitive information that
+                mobile applications store, process, and transmit, while enabling your
+                teams to innovate with confidence.
               </p>
 
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
-                We combine multiple service offerings—Penetration Testing, Secure Code
-                Review, Application Architecture Review, and Vulnerability Patching—to
-                defend mobile apps against modern cyberattacks.
+                We combine multiple service offerings—penetration testing, secure code
+                review, application architecture review, and remediation guidance—to help
+                defend your mobile apps against modern cyberattacks.
               </p>
 
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -109,20 +110,21 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
                 Our Mobile Application Security Services operate as an extension of your
-                in-house security team. We act as your strategic partner, ensuring your
-                mobile applications remain resilient, compliant, and secure throughout
-                their lifecycle.
+                in-house security and development teams. We act as your strategic partner,
+                helping you embed security into the mobile app lifecycle—design,
+                development, testing, release, and ongoing maintenance—so that security
+                becomes a built-in capability, not an afterthought.
               </p>
 
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -133,7 +135,7 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -146,12 +148,11 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
-                We perform both{" "}
-                <span className="font-semibold">Black Box</span> and{" "}
+                We perform both <span className="font-semibold">Black Box</span> and{" "}
                 <span className="font-semibold">Gray Box</span> assessments, where our
                 testers simulate both authenticated and unauthenticated users. This
                 threat-driven approach helps uncover contextual vulnerabilities specific to
@@ -161,23 +162,23 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
-                Our methodology is aligned with{" "}
+                Our methodology is aligned with leading industry standards such as the{" "}
                 <span className="font-semibold">
                   OWASP Mobile Application Security Verification Standard (MASVS)
                 </span>{" "}
-                and{" "}
-                <span className="font-semibold">OWASP Mobile Top 10</span> security
-                guidelines, ensuring globally recognized best practices.
+                and the{" "}
+                <span className="font-semibold">OWASP Mobile Top 10</span>, ensuring your
+                applications are tested against globally recognized best practices.
               </p>
 
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -188,7 +189,7 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -200,44 +201,45 @@ const MobileSecurityContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
                 <li>Android and iOS</li>
                 <li>Native applications</li>
                 <li>Hybrid applications</li>
-                <li>Mobile Web applications</li>
+                <li>Mobile web applications</li>
                 <li>Mobile Device Management (MDM) apps</li>
               </ul>
 
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
               >
-                The Varutra Advantage
+                The eDataForce Advantage
               </h3>
 
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
-                Our approach combines proven assessment techniques, in-house tools
-                (including patent-filed frameworks such as MASTS), and mobile-focused
-                procedures to deliver deep, actionable insights.
+                Our approach combines proven assessment techniques, automation accelerators,
+                and mobile-focused procedures to deliver deep, actionable insights—not just
+                raw findings. We focus on identifying issues that have real-world business
+                impact and prioritizing them based on risk.
               </p>
 
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -248,7 +250,7 @@ const MobileSecurityContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -276,28 +278,14 @@ const MobileSecurityContent = () => {
                   policies
                 </li>
                 <li>
-                  Overall improvement in assurance and confidence in your mobile security
-                  posture
+                  Overall improvement in confidence around your mobile security posture
                 </li>
               </ul>
-
-              <p
-                className="italic"
-                style={{
-                  fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
-                  color: "#000000",
-                }}
-              >
-                Varutra’s mobile application security research and tooling (including
-                MASTS) have been recognized in industry references such as the Gartner
-                Market Guide for Mobile Application Security Testing.
-              </p>
 
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -308,7 +296,7 @@ const MobileSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -323,12 +311,12 @@ const MobileSecurityContent = () => {
                 className="font-semibold"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
-                Get deep analysis to uncover your mobile application security gaps—before
-                the threat actors do.
+                Partner with eDataForce to identify and close your mobile application
+                security gaps—before attackers discover them.
               </p>
             </div>
           </div>
@@ -341,7 +329,7 @@ const MobileSecurityContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -369,7 +357,7 @@ const MobileSecurityContent = () => {
                       }`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>

@@ -51,7 +51,7 @@ const AuditAndComplianceContent = () => {
               <h2
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -62,7 +62,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -75,7 +75,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -88,7 +88,7 @@ const AuditAndComplianceContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -100,7 +100,7 @@ const AuditAndComplianceContent = () => {
               <h4
                 style={{
                   fontSize: "20px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#1B1F2E",
                 }}
@@ -110,7 +110,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -124,7 +124,7 @@ const AuditAndComplianceContent = () => {
               <h4
                 style={{
                   fontSize: "20px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#1B1F2E",
                 }}
@@ -134,7 +134,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -146,7 +146,7 @@ const AuditAndComplianceContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -160,7 +160,7 @@ const AuditAndComplianceContent = () => {
               <h4
                 style={{
                   fontSize: "20px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#1B1F2E",
                 }}
@@ -172,7 +172,7 @@ const AuditAndComplianceContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -188,7 +188,7 @@ const AuditAndComplianceContent = () => {
               <h4
                 style={{
                   fontSize: "20px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#1B1F2E",
                 }}
@@ -199,7 +199,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -211,7 +211,7 @@ const AuditAndComplianceContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -225,7 +225,7 @@ const AuditAndComplianceContent = () => {
               <h4
                 style={{
                   fontSize: "20px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#1B1F2E",
                 }}
@@ -236,7 +236,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -247,7 +247,7 @@ const AuditAndComplianceContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -261,7 +261,7 @@ const AuditAndComplianceContent = () => {
               <h4
                 style={{
                   fontSize: "20px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#1B1F2E",
                 }}
@@ -273,7 +273,7 @@ const AuditAndComplianceContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -287,7 +287,7 @@ const AuditAndComplianceContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -299,7 +299,7 @@ const AuditAndComplianceContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -315,7 +315,7 @@ const AuditAndComplianceContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -326,7 +326,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -339,7 +339,7 @@ const AuditAndComplianceContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -350,7 +350,7 @@ const AuditAndComplianceContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -371,7 +371,7 @@ const AuditAndComplianceContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -396,7 +396,7 @@ const AuditAndComplianceContent = () => {
                       }`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>

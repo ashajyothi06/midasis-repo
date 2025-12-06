@@ -51,7 +51,7 @@ const PermanentPlacementContent = () => {
                   className="mb-3"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -61,7 +61,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -81,7 +81,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -91,7 +91,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -111,7 +111,7 @@ const PermanentPlacementContent = () => {
                   className="mb-3"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -122,7 +122,7 @@ const PermanentPlacementContent = () => {
                   className="space-y-3 list-disc list-inside"
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -166,7 +166,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -176,7 +176,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -194,7 +194,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -204,7 +204,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -222,7 +222,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -232,7 +232,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -250,7 +250,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -260,7 +260,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -278,7 +278,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -288,7 +288,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -308,7 +308,7 @@ const PermanentPlacementContent = () => {
                   className="mb-2"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -318,7 +318,7 @@ const PermanentPlacementContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -340,7 +340,7 @@ const PermanentPlacementContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -368,7 +368,7 @@ const PermanentPlacementContent = () => {
                       }`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>

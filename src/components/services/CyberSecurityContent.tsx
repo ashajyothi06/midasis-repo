@@ -51,7 +51,7 @@ const CyberSecurityContent = () => {
               <h2
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -62,7 +62,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -74,7 +74,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -87,7 +87,7 @@ const CyberSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -98,7 +98,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -110,7 +110,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -121,7 +121,7 @@ const CyberSecurityContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -138,7 +138,7 @@ const CyberSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -149,7 +149,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -161,7 +161,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -172,7 +172,7 @@ const CyberSecurityContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -188,7 +188,7 @@ const CyberSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -199,7 +199,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -211,7 +211,7 @@ const CyberSecurityContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -223,7 +223,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -235,7 +235,7 @@ const CyberSecurityContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -246,7 +246,7 @@ const CyberSecurityContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -266,7 +266,7 @@ const CyberSecurityContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -288,7 +288,7 @@ const CyberSecurityContent = () => {
                         ${isActive ? "bg-[#f58220] text-white" : "bg-white hover:bg-[#f3f4ff]"}`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>
@@ -322,7 +322,7 @@ const CyberSecurityContent = () => {
                 <Link to="/contact" className="w-full max-w-[220px]">
                   <Button
                     variant="outline"
-                    className="w-full justify-center gap-2 py-3 text-sm md:text-base font-semibold border-white text-white bg-transparent hover:bg-white/15"
+                    className="w-full justify-center gap-2 py-3 text-sm md:text-base font-semibold border-white text-white bg-transparent hover:bg:white/15"
                   >
                     Contact Us
                     <ArrowRight className="w-4 h-4" />

@@ -55,7 +55,7 @@ const SoftwareTestingContent = () => {
                 <h2
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.75rem",
@@ -66,7 +66,7 @@ const SoftwareTestingContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -82,7 +82,7 @@ const SoftwareTestingContent = () => {
                 <h3
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.5rem",
@@ -93,7 +93,7 @@ const SoftwareTestingContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -106,7 +106,7 @@ const SoftwareTestingContent = () => {
                   className="mt-2"
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -121,7 +121,7 @@ const SoftwareTestingContent = () => {
                 <h3
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.5rem",
@@ -132,7 +132,7 @@ const SoftwareTestingContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -145,7 +145,7 @@ const SoftwareTestingContent = () => {
                   className="mt-2"
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -161,7 +161,7 @@ const SoftwareTestingContent = () => {
                 <h3
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.75rem",
@@ -173,7 +173,7 @@ const SoftwareTestingContent = () => {
                   className="space-y-3 list-disc list-inside"
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -213,7 +213,7 @@ const SoftwareTestingContent = () => {
                 <h3
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.5rem",
@@ -224,7 +224,7 @@ const SoftwareTestingContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -240,7 +240,7 @@ const SoftwareTestingContent = () => {
                 <h3
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.75rem",
@@ -252,7 +252,7 @@ const SoftwareTestingContent = () => {
                   className="space-y-3 list-disc list-inside"
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -347,7 +347,7 @@ const SoftwareTestingContent = () => {
                 <h3
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                     marginBottom: "0.5rem",
@@ -358,7 +358,7 @@ const SoftwareTestingContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -381,7 +381,7 @@ const SoftwareTestingContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -410,7 +410,7 @@ const SoftwareTestingContent = () => {
                       }`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>

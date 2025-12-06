@@ -52,7 +52,7 @@ const ApplicationMaintenanceContent = () => {
                   className="mb-3"
                   style={{
                     fontSize: "24px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "Poppins",
                     fontWeight: "700",
                     color: "#1B1F2E",
                   }}
@@ -62,7 +62,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -83,7 +83,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -104,7 +104,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -123,7 +123,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -143,7 +143,7 @@ const ApplicationMaintenanceContent = () => {
                   <li
                     style={{
                       fontSize: "18px",
-                      fontFamily: "Roboto, sans-serif",
+                      fontFamily: "Roboto",
                       color: "#000000",
                     }}
                   >
@@ -156,7 +156,7 @@ const ApplicationMaintenanceContent = () => {
                   <li
                     style={{
                       fontSize: "18px",
-                      fontFamily: "Roboto, sans-serif",
+                      fontFamily: "Roboto",
                       color: "#000000",
                     }}
                   >
@@ -169,7 +169,7 @@ const ApplicationMaintenanceContent = () => {
                   <li
                     style={{
                       fontSize: "18px",
-                      fontFamily: "Roboto, sans-serif",
+                      fontFamily: "Roboto",
                       color: "#000000",
                     }}
                   >
@@ -182,7 +182,7 @@ const ApplicationMaintenanceContent = () => {
                   <li
                     style={{
                       fontSize: "18px",
-                      fontFamily: "Roboto, sans-serif",
+                      fontFamily: "Roboto",
                       color: "#000000",
                     }}
                   >
@@ -202,7 +202,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -220,7 +220,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -238,7 +238,7 @@ const ApplicationMaintenanceContent = () => {
                 <p
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Roboto, sans-serif",
+                    fontFamily: "Roboto",
                     color: "#000000",
                   }}
                 >
@@ -261,7 +261,7 @@ const ApplicationMaintenanceContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -293,7 +293,7 @@ const ApplicationMaintenanceContent = () => {
                       <span
                         style={{
                           fontSize: "18px",
-                          fontFamily: "Roboto, sans-serif",
+                          fontFamily: "Roboto",
                           color: textColor,
                         }}
                       >

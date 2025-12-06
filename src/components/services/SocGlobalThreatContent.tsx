@@ -48,7 +48,7 @@ const SocGlobalThreatContent = () => {
               <h2
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -59,7 +59,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -75,7 +75,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -85,7 +85,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -97,7 +97,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -108,7 +108,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -122,7 +122,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -133,7 +133,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -152,7 +152,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -162,7 +162,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -175,7 +175,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -186,7 +186,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -201,7 +201,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -212,7 +212,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -231,7 +231,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -241,7 +241,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -254,7 +254,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -265,7 +265,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -283,7 +283,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -294,7 +294,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -315,7 +315,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -325,7 +325,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -338,7 +338,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -349,7 +349,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -361,7 +361,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -372,7 +372,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -391,7 +391,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -401,7 +401,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -414,7 +414,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -425,7 +425,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -443,7 +443,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -454,7 +454,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -469,7 +469,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -479,7 +479,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -491,7 +491,7 @@ const SocGlobalThreatContent = () => {
               <h4
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -502,7 +502,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -521,7 +521,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -532,7 +532,7 @@ const SocGlobalThreatContent = () => {
                 className="list-disc list-inside space-y-2"
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -550,7 +550,7 @@ const SocGlobalThreatContent = () => {
               <h3
                 style={{
                   fontSize: "24px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -560,7 +560,7 @@ const SocGlobalThreatContent = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  fontFamily: "Roboto, sans-serif",
+                  fontFamily: "Roboto",
                   color: "#000000",
                 }}
               >
@@ -580,7 +580,7 @@ const SocGlobalThreatContent = () => {
                 className="mb-6"
                 style={{
                   fontSize: "22px",
-                  fontFamily: "Poppins, sans-serif",
+                  fontFamily: "Poppins",
                   fontWeight: "700",
                   color: "#1B1F2E",
                 }}
@@ -609,7 +609,7 @@ const SocGlobalThreatContent = () => {
                       }`}
                       style={{
                         fontSize: "18px",
-                        fontFamily: "Roboto, sans-serif",
+                        fontFamily: "Roboto",
                       }}
                     >
                       <span style={{ color: textColor }}>{service.title}</span>
