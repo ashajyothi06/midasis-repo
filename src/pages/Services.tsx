@@ -25,9 +25,7 @@ import consultingIcon from "@/assets/professional-consulting-icon.png";
 import maintenanceIcon from "@/assets/application-maintanance-icon.png";
 import devopsIcon from "@/assets/devops-automation.png";
 
-// =======================
-// Cyber Security Image Imports (ADD correct files!)
-// =======================
+// Cyber Security Image Imports
 import cloudSecurityImg from "@/assets/cybersecurity-concept-illustration.jpg";
 import mobileSecurityImg from "@/assets/mobileSecurity.png";
 import applicationSecurityImg from "@/assets/applicationSecurity.jpg";
@@ -35,7 +33,7 @@ import networkSecurityImg from "@/assets/networkSecurity.jpg";
 import auditComplianceImg from "@/assets/compliance.jpg";
 import socThreatImg from "@/assets/SOC-global.png";
 
-// Icons (ADD real files)
+// Cyber Security Icons
 import cloudIcon from "@/assets/Ai-Services-Icon.png";
 import mobileIcon from "@/assets/software-testing-icon.png";
 import appSecIcon from "@/assets/Project-Services-Icon.png";
@@ -62,9 +60,7 @@ const services: ServiceCard[] = [
   { title: "Application Maintenance & Management", image: serviceMaintenance, logo: maintenanceIcon, href: "/services/application-maintenance" },
   { title: "DevOps and Automation Services", image: serviceDevops, logo: devopsIcon, href: "/services/devops-automation" },
 
-  // ===========================================
-  // 🚀 NEW CYBERSECURITY SERVICES START HERE
-  // ===========================================
+  // Cyber Security
   {
     title: "Cloud Security",
     image: cloudSecurityImg,
@@ -101,7 +97,6 @@ const services: ServiceCard[] = [
     logo: socIcon,
     href: "/services/soc-global-threat-management",
   },
-  // ===========================================
 ];
 
 const Services = () => {
@@ -120,7 +115,9 @@ const Services = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Services</h1>
 
           <div className="flex items-center justify-center gap-2 text-white/80">
-            <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+            <Link to="/" className="hover:text-accent transition-colors">
+              Home
+            </Link>
             <ChevronRight className="w-4 h-4" />
             <span className="text-accent">Services</span>
           </div>
@@ -131,7 +128,6 @@ const Services = () => {
       <main className="py-20 bg-secondary">
         <section id="services" className="w-full">
           <div className="w-full px-3 sm:px-4 lg:px-8 xl:px-12">
-
             {/* Heading */}
             <div className="mb-12 text-center">
               <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-[#f58220]">
@@ -145,9 +141,8 @@ const Services = () => {
             {/* SERVICE CARDS */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
               {services.map((service) => (
-                <Link
+                <div
                   key={service.title}
-                  to={service.href}
                   className="
                     group relative block mx-auto w-[95%] sm:w-full
                     overflow-hidden shadow-xl
@@ -156,7 +151,7 @@ const Services = () => {
                   "
                 >
                   <div className="relative h-[400px] sm:h-[430px] md:h-[460px] w-full">
-
+                    {/* Background image */}
                     <img
                       src={service.image}
                       alt={service.title}
@@ -166,18 +161,24 @@ const Services = () => {
                       "
                     />
 
-                    <div className="
+                    {/* Gradient overlay */}
+                    <div
+                      className="
                       absolute inset-0 bg-gradient-to-t
                       from-black/90 via-black/60 to-transparent
-                    " />
+                    "
+                    />
 
+                    {/* Icon + Title */}
                     <div className="absolute bottom-20 left-5 flex items-center gap-4">
-                      <div className="
-                        h-20 w-20 bg-[#11153b] shadow-lg
-                        flex items-center justify-center
-                        transition-transform duration-500
-                        group-hover:-translate-y-1 group-hover:translate-x-1
-                      ">
+                      <div
+                        className="
+                          h-20 w-20 bg-[#11153b] shadow-lg
+                          flex items-center justify-center
+                          transition-transform duration-500
+                          group-hover:-translate-y-1 group-hover:translate-x-1
+                        "
+                      >
                         <img src={service.logo} className="h-10 w-10 object-contain" />
                       </div>
 
@@ -186,19 +187,23 @@ const Services = () => {
                       </h3>
                     </div>
 
-                    <div className="
-                      absolute bottom-6 left-5 opacity-0 translate-y-2
-                      transition-all duration-300
-                      group-hover:opacity-100 group-hover:translate-y-0
-                    ">
-                      <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
-                        <span className="group-hover:underline">Read More</span>
-                        <ArrowRight className="h-5 w-5 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0" />
-                      </span>
+                    {/* Read More – ONLY this is clickable */}
+                    <div
+                      className="
+                        absolute bottom-6 left-5 opacity-0 translate-y-2
+                        transition-all duration-300
+                        group-hover:opacity-100 group-hover:translate-y-0
+                      "
+                    >
+                      <Link to={service.href}>
+                        <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
+                          <span className="group-hover:underline">Read More</span>
+                          <ArrowRight className="h-5 w-5 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0" />
+                        </span>
+                      </Link>
                     </div>
-
                   </div>
-                </Link>
+                </div>
               ))}
             </div>
 
@@ -209,7 +214,6 @@ const Services = () => {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
-
           </div>
         </section>
       </main>

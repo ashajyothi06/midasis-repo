@@ -116,9 +116,8 @@ const ServicesSection = () => {
           {/* GRID */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service) => (
-              <Link
+              <div
                 key={service.title}
-                to={service.href}
                 className="
                   group relative block mx-auto
                   w-[96%] sm:w-full
@@ -162,7 +161,7 @@ const ServicesSection = () => {
                     </h3>
                   </div>
 
-                  {/* READ MORE */}
+                  {/* READ MORE (ONLY THIS IS CLICKABLE) */}
                   <div
                     className="
                       absolute bottom-6 left-5
@@ -171,14 +170,16 @@ const ServicesSection = () => {
                       group-hover:opacity-100 group-hover:translate-y-0
                     "
                   >
-                    <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
-                      <span className="group-hover:underline">Read More</span>
-                      <ArrowRight className="h-5 w-5 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0" />
-                    </span>
+                    <Link to={service.href}>
+                      <span className="flex items-center gap-2 text-lg font-semibold text-[#f58220]">
+                        <span className="group-hover:underline">Read More</span>
+                        <ArrowRight className="h-5 w-5 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0" />
+                      </span>
+                    </Link>
                   </div>
 
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
 
