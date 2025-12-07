@@ -44,7 +44,6 @@ type ServiceCard = {
 
 // ALL SERVICES LIST
 const allServices: ServiceCard[] = [
-  // First 12 (always visible)
   { title: "A.I. Services", image: serviceAi, logo: aiIcon, href: "/services/ai-services" },
   { title: "Project Services", image: serviceProject, logo: projectIcon, href: "/services/project-services" },
   { title: "Staff Augmentation", image: serviceStaffing, logo: staffIcon, href: "/services/staff-augmentation" },
@@ -57,8 +56,6 @@ const allServices: ServiceCard[] = [
   { title: "Mobile Application Security", image: mobileSecurityImg, logo: mobileIcon, href: "/services/mobile-security" },
   { title: "Application Security", image: applicationSecurityImg, logo: appSecIcon, href: "/services/application-security" },
   { title: "Network Infrastructure Security", image: networkSecurityImg, logo: networkIcon, href: "/services/network-security" },
-
-  // Last 2 (should show only when button clicked)
   { title: "Audit & Compliance", image: auditComplianceImg, logo: auditIcon, href: "/services/audit-compliance" },
   { title: "SOC & Global Threat Management", image: socThreatImg, logo: socIcon, href: "/services/soc-global-threat" },
 ];
@@ -90,7 +87,7 @@ const ServicesSection = () => {
                 className="group relative block mx-auto w-[96%] sm:w-full overflow-hidden shadow-xl transition-transform duration-500 hover:-translate-y-3 hover:shadow-2xl"
               >
                 <div className="relative h-[420px] sm:h-[440px] md:h-[460px]">
-                  
+
                   <img
                     src={service.image}
                     alt={service.title}
@@ -99,12 +96,20 @@ const ServicesSection = () => {
 
                   <div className="absolute inset-0 bg-gradient-to-t from-[#11153b]/95 via-[#11153b]/60 to-transparent" />
 
+                  {/* UPDATED TITLE COLOR LIKE YOUR SECOND SERVICES PAGE */}
                   <div className="absolute bottom-20 left-5 flex items-center gap-4">
                     <div className="h-20 w-20 bg-[#11153b] flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1">
                       <img src={service.logo} alt="" className="h-10 w-10 object-contain" />
                     </div>
 
-                    <h3 className="service-title group-hover:text-[#f58220]">
+                    <h3
+                      className="
+                        text-white 
+                        text-2xl font-semibold 
+                        transition-colors duration-300
+                        group-hover:text-[#f58220]
+                      "
+                    >
                       {service.title}
                     </h3>
                   </div>

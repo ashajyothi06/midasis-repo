@@ -15,40 +15,41 @@ const AboutSection = () => {
 
           /* Sub Heading – 18px Roboto */
           #about .sub-heading {
-            font-family: "Roboto", sans-serif !important;
+            font-family: "Roboto" !important;
             font-size: 18px !important;
             color: #121158 !important;
             font-weight: 700 !important;
+            margin: 0 !important;
           }
 
           /* Main Heading – 26px Poppins */
           #about .main-heading {
-            font-family: "Poppins", sans-serif !important;
+            font-family: "Poppins" !important;
             font-size: 26px !important;
             color: #1B1F2E !important;
             font-weight: 700 !important;
+            margin: 0 !important;
           }
 
           /* Body Text – 18px Roboto */
           #about p,
           #about span,
           #about .body-text {
-            font-family: "Roboto", sans-serif !important;
+            font-family: "Roboto" !important;
             font-size: 18px !important;
             color: #000000 !important;
+            margin: 0 !important;
           }
         `}
       </style>
 
       <section id="about" className="py-20 bg-[#f5f4ff]">
         <div className="max-w-6xl mx-auto px-4">
-
           <div className="grid items-center gap-12 lg:grid-cols-[1.4fr,1fr]">
 
             {/* MOBILE IMAGE CLUSTER */}
             <div className="lg:hidden order-1">
               <div className="relative max-w-sm mx-auto h-[380px]">
-
                 <img
                   src={aboutBuilding}
                   alt="Modern office building"
@@ -81,20 +82,20 @@ const AboutSection = () => {
             </div>
 
             {/* TEXT CONTENT */}
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-1 space-y-4">
 
-              {/* Sub Heading – 18px Roboto */}
-              <p className="mb-3 tracking-wide sub-heading">
+              {/* Sub Heading */}
+              <p className="tracking-wide sub-heading">
                 eDataForce Consulting LLC
               </p>
 
-              {/* Main Heading – 26px Poppins */}
-              <h2 className="mb-6 main-heading">
-                About eDataforce
+              {/* Main Heading */}
+              <h2 className="main-heading">
+                About eDataForce
               </h2>
 
-              {/* Body Text – 18px Roboto */}
-              <p className="mb-4 leading-relaxed body-text">
+              {/* Body Text */}
+              <p className="leading-relaxed body-text">
                 At eDataForce Consulting LLC, we are more than just a consulting firm; 
                 we are your trusted partner in transforming the way businesses leverage 
                 technology to drive success. With a deep commitment to innovation, 
@@ -103,7 +104,7 @@ const AboutSection = () => {
                 businesses to thrive in today’s fast-evolving landscape.
               </p>
 
-              <p className="mb-8 leading-relaxed body-text">
+              <p className="leading-relaxed body-text">
                 At eDataForce, our mission is to empower businesses with innovative 
                 IT solutions, expert talent, and unparalleled service. We are committed 
                 to delivering excellence in every engagement, fostering success for our 
@@ -113,7 +114,7 @@ const AboutSection = () => {
               <Button
                 variant="orange"
                 size="lg"
-                className="px-6 py-5 text-sm font-semibold tracking-wide w-auto"
+                className="px-6 py-5 text-sm font-semibold tracking-wide w-auto mt-4"
               >
                 Learn More
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -122,7 +123,6 @@ const AboutSection = () => {
 
             {/* DESKTOP IMAGE CLUSTER */}
             <div className="relative hidden lg:block h-[550px] order-1 lg:order-2">
-
               <img
                 src={aboutBuilding}
                 alt="Modern office building"
