@@ -68,7 +68,7 @@ const PermanentPlacementContent = () => {
                   In today’s competitive business environment, finding, attracting, and
                   retaining top talent is more critical than ever. But as businesses focus
                   on achieving their strategic goals, dedicating time and resources to
-                  recruitment can be a significant challenge. That’s where eDataForce
+                  recruitment can be a significant challenge. That’s where Midasis
                   comes in. Our Permanent Placement Services are designed to take the
                   complexity out of the hiring process, allowing you to concentrate on
                   what matters most—running and growing your business.
@@ -116,7 +116,7 @@ const PermanentPlacementContent = () => {
                     color: "#1B1F2E",
                   }}
                 >
-                  What Makes eDataForce Different?
+                  What Makes Midasis Different?
                 </h3>
                 <ul
                   className="space-y-3 list-disc list-inside"
@@ -180,7 +180,7 @@ const PermanentPlacementContent = () => {
                     color: "#000000",
                   }}
                 >
-                  At eDataForce, our focus goes beyond simply filling vacancies. We place
+                  At Midasis, our focus goes beyond simply filling vacancies. We place
                   candidates who are committed to growing within your organization and
                   contributing to your long-term success. By understanding your business
                   objectives and culture, we ensure that the talent you hire today becomes
@@ -264,7 +264,7 @@ const PermanentPlacementContent = () => {
                     color: "#000000",
                   }}
                 >
-                  No matter where your business is located, eDataForce has the reach and
+                  No matter where your business is located, Midasis has the reach and
                   resources to source the best candidates. Our extensive network of
                   qualified professionals spans across industries and geographies,
                   allowing us to quickly find the right match for your permanent
@@ -283,7 +283,7 @@ const PermanentPlacementContent = () => {
                     color: "#1B1F2E",
                   }}
                 >
-                  Why Choose eDataForce for Permanent Placement?
+                  Why Choose Midasis for Permanent Placement?
                 </h3>
                 <p
                   style={{
@@ -292,7 +292,7 @@ const PermanentPlacementContent = () => {
                     color: "#000000",
                   }}
                 >
-                  At eDataForce, we’re more than just a recruitment provider—we’re your
+                  At Midasis, we’re more than just a recruitment provider—we’re your
                   partner in building a workforce that drives long-term success. Our
                   commitment to delivering high-quality, reliable candidates, combined
                   with our industry expertise and focus on long-term retention, makes us
@@ -384,7 +384,7 @@ const PermanentPlacementContent = () => {
               {/* background image with slight movement */}
               <img
                 src={placementCtaImage}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               {/* DARK transparent overlay */}
@@ -395,7 +395,7 @@ const PermanentPlacementContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

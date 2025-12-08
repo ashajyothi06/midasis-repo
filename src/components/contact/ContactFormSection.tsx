@@ -7,7 +7,7 @@ const ContactFormSection = () => {
         {/* Heading */}
         <div className="text-center mb-12">
           <p className="text-sm font-semibold text-navy mb-2">
-            eDataForce Consulting LLC
+            Midasis Consulting LLC
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-navy">
             Contact Information
@@ -44,10 +44,10 @@ const ContactFormSection = () => {
               </h3>
               <p className="text-sm text-navy leading-relaxed">
                 <a
-                  href="mailto:info@edataforce.com"
+                  href="mailto:info@midasis.com"
                   className="hover:text-[#f58220] transition-colors"
                 >
-                  info@edataforce.com
+                  info@midasis.com
                 </a>
               </p>
             </div>

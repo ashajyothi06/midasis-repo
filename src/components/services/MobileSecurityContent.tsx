@@ -77,7 +77,7 @@ const MobileSecurityContent = () => {
                   color: "#000000",
                 }}
               >
-                At eDataForce, we bring deep technical, operational, and consulting
+                At Midasis, we bring deep technical, operational, and consulting
                 expertise to assess the security posture of mobile applications and the
                 devices they run on. Our goal is to protect the sensitive information that
                 mobile applications store, process, and transmit, while enabling your
@@ -220,7 +220,7 @@ const MobileSecurityContent = () => {
                   color: "#1B1F2E",
                 }}
               >
-                The eDataForce Advantage
+                The Midasis Advantage
               </h3>
 
               <p
@@ -315,7 +315,7 @@ const MobileSecurityContent = () => {
                   color: "#000000",
                 }}
               >
-                Partner with eDataForce to identify and close your mobile application
+                Partner with Midasis to identify and close your mobile application
                 security gaps—before attackers discover them.
               </p>
             </div>
@@ -372,7 +372,7 @@ const MobileSecurityContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={mobileHero}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               <div className="absolute inset-0 bg-black/75" />
@@ -382,7 +382,7 @@ const MobileSecurityContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

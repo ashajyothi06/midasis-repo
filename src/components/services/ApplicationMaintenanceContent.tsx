@@ -67,7 +67,7 @@ const ApplicationMaintenanceContent = () => {
                   }}
                 >
                   In today’s fast-moving digital world, businesses cannot afford
-                  outdated, slow, or insecure applications. eDataForce understands the
+                  outdated, slow, or insecure applications. Midasis understands the
                   urgency of modernizing and maintaining IT applications to keep pace
                   with evolving demands. Our Application Maintenance &amp; Management
                   Services provide swift, secure, and seamless support, ensuring your
@@ -78,7 +78,7 @@ const ApplicationMaintenanceContent = () => {
 
               <div>
                 <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-2">
-                  Why Choose eDataForce for Application Maintenance &amp; Management?
+                  Why Choose Midasis for Application Maintenance &amp; Management?
                 </h3>
                 <p
                   style={{
@@ -129,7 +129,7 @@ const ApplicationMaintenanceContent = () => {
                 >
                   Security is at the heart of everything we do. From updates and
                   patches to full-scale security audits, we ensure your applications
-                  are fortified against evolving threats. With eDataForce, your
+                  are fortified against evolving threats. With Midasis, your
                   applications are safeguarded and optimized to handle the challenges
                   of an ever-changing digital environment.
                 </p>
@@ -233,7 +233,7 @@ const ApplicationMaintenanceContent = () => {
 
               <div>
                 <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-2">
-                  Why eDataForce?
+                  Why MidasisForce?
                 </h3>
                 <p
                   style={{
@@ -242,10 +242,10 @@ const ApplicationMaintenanceContent = () => {
                     color: "#000000",
                   }}
                 >
-                  By choosing eDataForce, you’re partnering with a team that prioritizes
+                  By choosing Midasis, you’re partnering with a team that prioritizes
                   speed, security, and reliability. Our proactive, customized approach
                   keeps your applications future-proof, secure, and optimized for your
-                  growing business. With eDataForce Application Maintenance &amp;
+                  growing business. With Midasis Application Maintenance &amp;
                   Management Services, you’re not just maintaining applications—you’re
                   ensuring their long-term success and resilience.
                 </p>
@@ -313,7 +313,7 @@ const ApplicationMaintenanceContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={appMaintenanceHero}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               <div className="absolute inset-0 bg-black/75" />
@@ -323,7 +323,7 @@ const ApplicationMaintenanceContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

@@ -73,7 +73,7 @@ const ServicesSection = () => {
 
           {/* Heading */}
           <div className="mb-12 text-center">
-            <p className="main-heading mb-3">EDATAFORCE CONSULTING LLC</p>
+            <p className="main-heading mb-3">MIDASIS CONSULTING LLC</p>
             <h2 className="title-heading font-extrabold tracking-wide">
               Our World-Class Services
             </h2>

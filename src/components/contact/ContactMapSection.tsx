@@ -14,7 +14,7 @@ const ContactMapSection = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="eDataForce Office Location"
+            title="Midasis Office Location"
           />
         </div>
       </div>
@@ -24,7 +24,7 @@ const ContactMapSection = () => {
         <div className="w-full max-w-4xl bg-white shadow-2xl px-4 sm:px-6 md:px-10 py-8 md:py-10">
           <div className="text-center mb-6 md:mb-8">
             <p className="text-xs md:text-sm font-semibold tracking-[0.25em] text-[#f58220] mb-2">
-              EDATAFORCE CONSULTING LLC
+              MIDASIS CONSULTING LLC
             </p>
             <h2 className="text-2xl md:text-3xl font-bold text-[#15172b]">
               Contact Form

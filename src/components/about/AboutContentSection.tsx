@@ -113,11 +113,11 @@ const AboutContentSection = () => {
 
           {/* RIGHT CONTENT */}
           <div className="flex flex-col justify-start lg:pt-6">
-            <p className="main-heading mb-3">eDataForce Consulting LLC</p>
-            <h2 className="section-heading mb-6">About eDataForce</h2>
+            <p className="main-heading mb-3">Midasis Consulting LLC</p>
+            <h2 className="section-heading mb-6">About Midasis</h2>
 
             <p className="text-para mb-6">
-              At eDataForce Consulting LLC, we are more than just a consulting firm; 
+              At Midasis Consulting LLC, we are more than just a consulting firm; 
               we are your trusted partner in transforming the way businesses leverage 
               technology to drive success. With a deep commitment to innovation, 
               integrity, and excellence, we stand at the forefront of IT staffing 
@@ -130,7 +130,7 @@ const AboutContentSection = () => {
                 <h3 className="sub-heading mb-2">Who We Are</h3>
                 <p className="text-para">
                   Founded on the principles of trust, collaboration, and customer-centricity, 
-                  eDataForce is a dynamic consulting firm with extensive experience in the 
+                  midasis is a dynamic consulting firm with extensive experience in the 
                   IT sector. Our team of experts is dedicated to delivering customized 
                   technology solutions that align with your business objectives, enhance 
                   performance, and foster growth.
@@ -151,7 +151,7 @@ const AboutContentSection = () => {
               <div>
                 <h3 className="sub-heading mb-2">Our Mission</h3>
                 <p className="text-para">
-                  At eDataForce, our mission is to empower businesses by delivering 
+                  At midasis, our mission is to empower businesses by delivering 
                   innovative, results-driven technology solutions that foster growth, 
                   enhance performance, and create lasting value. We are committed to 
                   being a strategic partner to our clients, offering unmatched expertise 

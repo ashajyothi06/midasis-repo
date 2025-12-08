@@ -411,7 +411,7 @@ const AuditAndComplianceContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={auditHero}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               <div className="absolute inset-0 bg-black/75" />
@@ -422,7 +422,7 @@ const AuditAndComplianceContent = () => {
                 </p>
 
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce <br /> Consulting LLC
+                  Midasis <br /> Consulting LLC
                 </h3>
 
                 <Link to="/contact" className="w-full max-w-[220px]">

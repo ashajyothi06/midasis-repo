@@ -86,17 +86,17 @@ const AboutSection = () => {
 
               {/* Sub Heading */}
               <p className="tracking-wide sub-heading">
-                eDataForce Consulting LLC
+                Midasis Consulting LLC
               </p>
 
               {/* Main Heading */}
               <h2 className="main-heading">
-                About eDataForce
+                About Midasis
               </h2>
 
               {/* Body Text */}
               <p className="leading-relaxed body-text">
-                At eDataForce Consulting LLC, we are more than just a consulting firm; 
+                At Midasis Consulting LLC, we are more than just a consulting firm; 
                 we are your trusted partner in transforming the way businesses leverage 
                 technology to drive success. With a deep commitment to innovation, 
                 integrity, and excellence, we stand at the forefront of IT staffing 
@@ -105,7 +105,7 @@ const AboutSection = () => {
               </p>
 
               <p className="leading-relaxed body-text">
-                At eDataForce, our mission is to empower businesses with innovative 
+                At Midasis, our mission is to empower businesses with innovative 
                 IT solutions, expert talent, and unparalleled service. We are committed 
                 to delivering excellence in every engagement, fostering success for our 
                 clients, partners, and employees alike.

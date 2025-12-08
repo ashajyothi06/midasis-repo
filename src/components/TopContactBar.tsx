@@ -9,11 +9,11 @@ const TopContactBar = () => {
         {/* LEFT SIDE (HIDDEN ON MOBILE) */}
         <div className="hidden sm:flex items-center gap-4">
           <a
-            href="mailto:info@edataforce.com"
+            href="mailto:info@midasis.com"
             className="flex items-center gap-2 hover:text-[#ff6a00] transition-colors"
           >
             <Mail className="w-4 h-4 text-[#ff6a00]" />
-            <span>info@edataforce.com</span>
+            <span>info@midasis.com</span>
           </a>
 
           <span className="text-white/80">•</span>

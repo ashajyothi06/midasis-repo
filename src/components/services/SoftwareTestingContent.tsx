@@ -70,7 +70,7 @@ const SoftwareTestingContent = () => {
                     color: "#000000",
                   }}
                 >
-                  At eDataForce, we believe that testing is more than just a phase—it’s the 
+                  At Midasis, we believe that testing is more than just a phase—it’s the 
                   foundation of reliable, high-performing software. We do it right, and we test 
                   it right. Our approach to software testing is driven by precision, performance, 
                   and a commitment to excellence.
@@ -99,7 +99,7 @@ const SoftwareTestingContent = () => {
                 >
                   Quality issues can create operational roadblocks, increase costs, and damage 
                   your company’s reputation. Many organizations recognize these issues but 
-                  struggle to pinpoint and implement corrective measures. That’s where eDataForce 
+                  struggle to pinpoint and implement corrective measures. That’s where Midasis 
                   steps in.
                 </p>
                 <p
@@ -150,7 +150,7 @@ const SoftwareTestingContent = () => {
                   }}
                 >
                   Our goal is to ensure that your systems are stable, scalable, and capable of 
-                  supporting your business’s growth. At eDataForce, we go beyond standard testing 
+                  supporting your business’s growth. At Midasis, we go beyond standard testing 
                   practices to deliver measurable results that enhance quality, reduce risks, and 
                   optimize performance.
                 </p>
@@ -353,7 +353,7 @@ const SoftwareTestingContent = () => {
                     marginBottom: "0.5rem",
                   }}
                 >
-                  Why Choose eDataForce for Software Testing?
+                  Why Choose Midasis for Software Testing?
                 </h3>
                 <p
                   style={{
@@ -362,10 +362,10 @@ const SoftwareTestingContent = () => {
                     color: "#000000",
                   }}
                 >
-                  When you partner with eDataForce, you’re choosing a team committed to delivering 
+                  When you partner with Midasis, you’re choosing a team committed to delivering 
                   measurable improvements to your software’s quality and performance. Our holistic 
                   approach to software testing ensures that every aspect of your system is tested 
-                  for reliability, security, and scalability. With eDataForce, you can trust that 
+                  for reliability, security, and scalability. With Midasis, you can trust that 
                   your software will not only meet today’s needs but will also be prepared to 
                   handle the challenges of tomorrow.
                 </p>
@@ -426,7 +426,7 @@ const SoftwareTestingContent = () => {
               {/* background image with movement */}
               <img
                 src={softwareTestingCta}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               {/* dark overlay */}
@@ -437,7 +437,7 @@ const SoftwareTestingContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

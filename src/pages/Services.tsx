@@ -137,7 +137,7 @@ const Services = () => {
             {/* Heading */}
             <div className="mb-12 text-center">
               <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-[#f58220]">
-                EDATAFORCE CONSULTING LLC
+                MIDASIS CONSULTING LLC
               </p>
               <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wider text-[#15172b]">
                 Our World-Class Services

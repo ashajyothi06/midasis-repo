@@ -75,7 +75,7 @@ const ProfessionalConsultingContent = () => {
                     color: "#000000",
                   }}
                 >
-                  At eDataForce, we are more than just consultants—we are your strategic
+                  At Midasis, we are more than just consultants—we are your strategic
                   partners in navigating the complexities of today’s technology landscape.
                   With a proven track record of delivering high-impact consulting projects,
                   we bring unmatched expertise, innovative strategies, and a relentless
@@ -94,7 +94,7 @@ const ProfessionalConsultingContent = () => {
                     color: "#1B1F2E",
                   }}
                 >
-                  Why eDataForce is the Consulting Partner You Need
+                  Why Midasis is the Consulting Partner You Need
                 </h3>
                 <p
                   style={{
@@ -246,7 +246,7 @@ const ProfessionalConsultingContent = () => {
                     color: "#1B1F2E",
                   }}
                 >
-                  Why eDataForce is “The One”
+                  Why Midasis is “The One”
                 </h3>
                 <p
                   style={{
@@ -340,7 +340,7 @@ const ProfessionalConsultingContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={consultingCtaImage}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               <div className="absolute inset-0 bg-black/75" />
@@ -350,7 +350,7 @@ const ProfessionalConsultingContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

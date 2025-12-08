@@ -4,19 +4,19 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     title: "Reliable Staffing",
-    text: "Working with eDataForce transformed our approach to staffing. They took the time to understand our needs and delivered exceptional candidates.",
+    text: "Working with midasis transformed our approach to staffing. They took the time to understand our needs and delivered exceptional candidates.",
     author: "Chris Bricker",
     role: "CEO & Founder",
   },
   {
     title: "Top Talent",
-    text: "eDataForce stands out in staffing and placements with their commitment to quality and personalized service. They provided us with highly skilled professionals who exceeded our expectations.",
+    text: "midasis stands out in staffing and placements with their commitment to quality and personalized service. They provided us with highly skilled professionals who exceeded our expectations.",
     author: "Pawan Sharma",
     role: "Senior Manager",
   },
   {
     title: "Seamless Collaboration",
-    text: "The eDataForce team integrated seamlessly with our processes and consistently provided talent that matched both our technical and cultural needs.",
+    text: "The midasis team integrated seamlessly with our processes and consistently provided talent that matched both our technical and cultural needs.",
     author: "Amanda Lee",
     role: "Director of Operations",
   },
@@ -82,7 +82,7 @@ const TestimonialsSection = () => {
               letterSpacing: "0.25em",
             }}
           >
-            EDATAFORCE CONSULTING LLC
+            MIDASIS CONSULTING LLC
           </p>
 
           <h2

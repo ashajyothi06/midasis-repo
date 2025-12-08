@@ -70,7 +70,7 @@ const ProcessSection = () => {
 
         {/* Headings */}
         <div className="text-center mb-14">
-          <p className="main-heading mb-3">EDATAFORCE CONSULTING LLC</p>
+          <p className="main-heading mb-3">MIDASIS CONSULTING LLC</p>
 
           <h2 className="section-heading">
             Industry Best Practices to the Core

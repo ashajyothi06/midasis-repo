@@ -9,7 +9,7 @@ const tabs = [
     id: "tailored",
     icon: CheckSquare,
     label: "Tailored Talent Acquisition for Success",
-    content: `eDataForce delivers tailored staffing solutions that align with your unique business needs, ensuring that you have the right talent to drive success. Our customized talent acquisition strategies go beyond traditional recruitment by deeply understanding your company's culture, goals, and specific role requirements. Leveraging advanced AI-driven recruitment tools, we source top-tier professionals who fit seamlessly into your organization. Our rigorous screening process guarantees high-quality candidates who are not just technically proficient but also a great cultural match. Whether you need contract, full-time, or project-based hires, eDataForce provides flexible staffing solutions designed to optimize your workforce, save time, and enhance productivity. Trust us to elevate your team with the best talent in the market.`,
+    content: `midasis delivers tailored staffing solutions that align with your unique business needs, ensuring that you have the right talent to drive success. Our customized talent acquisition strategies go beyond traditional recruitment by deeply understanding your company's culture, goals, and specific role requirements. Leveraging advanced AI-driven recruitment tools, we source top-tier professionals who fit seamlessly into your organization. Our rigorous screening process guarantees high-quality candidates who are not just technically proficient but also a great cultural match. Whether you need contract, full-time, or project-based hires, midasis provides flexible staffing solutions designed to optimize your workforce, save time, and enhance productivity. Trust us to elevate your team with the best talent in the market.`,
     image: teamMeeting,
     imagePosition: "left",
   },
@@ -17,7 +17,7 @@ const tabs = [
     id: "seamless",
     icon: List,
     label: "Seamless Placements for Flexible Staffing",
-    content: `At eDataForce, we specialize in seamless placements that offer flexibility and efficiency for your staffing needs. Our expert recruitment team connects you with highly skilled professionals for contract, contract-to-hire, and direct placement roles, ensuring a smooth integration into your team. We understand that business demands can change rapidly, and our adaptable staffing solutions are designed to scale with you. By leveraging our extensive talent network and strategic placement approach, we help you enhance operational efficiency and meet project goals. eDataForce focuses on providing personalized support and a streamlined hiring process, reducing your time-to-fill and ensuring the best fit for your organization. Let us be your trusted partner in building a high-performing workforce.`,
+    content: `At Midasis, we specialize in seamless placements that offer flexibility and efficiency for your staffing needs. Our expert recruitment team connects you with highly skilled professionals for contract, contract-to-hire, and direct placement roles, ensuring a smooth integration into your team. We understand that business demands can change rapidly, and our adaptable staffing solutions are designed to scale with you. By leveraging our extensive talent network and strategic placement approach, we help you enhance operational efficiency and meet project goals. Midasis focuses on providing personalized support and a streamlined hiring process, reducing your time-to-fill and ensuring the best fit for your organization. Let us be your trusted partner in building a high-performing workforce.`,
     image: teamOutside,
     imagePosition: "right",
   },
@@ -72,7 +72,7 @@ const StaffingSection = () => {
           {/* Section Headings */}
           <div className="text-center mb-12">
             <p className="main-heading mb-3">
-              EDATAFORCE CONSULTING LLC
+              MIDASIS CONSULTING LLC
             </p>
 
             <h2 className="section-heading leading-tight">

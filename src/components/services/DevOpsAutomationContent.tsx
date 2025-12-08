@@ -66,7 +66,7 @@ const DevOpsAutomationContent = () => {
                 >
                   In today’s fast-paced business environment, the ability to develop,
                   test, and deploy software rapidly while maintaining quality is
-                  critical. At eDataForce, we offer comprehensive DevOps and Automation
+                  critical. At Midasis, we offer comprehensive DevOps and Automation
                   Services designed to streamline your development pipeline, reduce
                   downtime, and enhance collaboration across your IT teams. Whether
                   you’re transitioning to cloud-native architecture or looking to
@@ -86,7 +86,7 @@ const DevOpsAutomationContent = () => {
                     color: "#1B1F2E",
                   }}
                 >
-                  Why Choose eDataForce for DevOps and Automation?
+                  Why Choose Midasis for DevOps and Automation?
                 </h3>
                 <p
                   style={{
@@ -99,7 +99,7 @@ const DevOpsAutomationContent = () => {
                   are key to success in the digital era. Our DevOps services are
                   focused on fostering collaboration between development and
                   operations teams, automating repetitive tasks, and optimizing your
-                  infrastructure to enable continuous delivery. With eDataForce, you
+                  infrastructure to enable continuous delivery. With Midasis, you
                   gain access to expert DevOps consultants who specialize in
                   implementing best practices, creating automated workflows, and
                   delivering measurable improvements to your operations.
@@ -239,7 +239,7 @@ const DevOpsAutomationContent = () => {
                   Our DevOps experts work with clients across a variety of industries,
                   including finance, healthcare, telecommunications, and retail.
                   Whether you’re building a new infrastructure from the ground up or
-                  modernizing existing systems, eDataForce offers customized solutions
+                  modernizing existing systems, Midasis offers customized solutions
                   designed to meet the specific needs of your business.
                 </p>
               </div>
@@ -255,7 +255,7 @@ const DevOpsAutomationContent = () => {
                     color: "#1B1F2E",
                   }}
                 >
-                  Why eDataForce for DevOps?
+                  Why Midasis for DevOps?
                 </h3>
                 <p
                   style={{
@@ -264,7 +264,7 @@ const DevOpsAutomationContent = () => {
                     color: "#000000",
                   }}
                 >
-                  With eDataForce, you get more than just a service provider—you get a
+                  With Midasis, you get more than just a service provider—you get a
                   trusted partner who is invested in your long-term success. Our DevOps
                   and Automation Services enable your business to operate at peak
                   performance, reduce operational risks, and stay ahead of the
@@ -328,7 +328,7 @@ const DevOpsAutomationContent = () => {
               {/* background image with movement */}
               <img
                 src={devOpsContactImage}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
               {/* dark transparent overlay */}
@@ -339,7 +339,7 @@ const DevOpsAutomationContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

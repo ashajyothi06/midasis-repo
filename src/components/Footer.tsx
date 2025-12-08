@@ -96,10 +96,10 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-8 pb-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-3xl font-extrabold">
             <span className="text-[#1c2b81] drop-shadow-[0_0_3px_rgba(0,0,0,0.7)]">
-              edata
+              Midasis
             </span>
             <span className="text-[#f58220] drop-shadow-[0_0_3px_rgba(0,0,0,0.7)]">
-              force
+              Technologies
             </span>
           </div>
 
@@ -125,25 +125,25 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-5">About</h3>
             <p className="text-white/70 text-sm mb-6 max-w-xs">
-              At eDataForce, We Provide the next generation of A.I Services &amp;
+              At Midasis, We Provide the next generation of A.I Services &amp;
               Solutions!
             </p>
             <div className="space-y-4 text-sm text-white/80">
               <div className="flex gap-3">
                 <MapPin className="w-5 h-5 text-[#f58220] mt-1" />
                 <span>
-                  1011 Surrey Lane, Bldg. 200
+                  2412 HYDE CT NE
                   <br />
-                  FLOWER MOUND, TX 75022
+                  Olympia, WA 98506
                 </span>
               </div>
               <div className="flex gap-3">
                 <Mail className="w-5 h-5 text-[#f58220]" />
-                <span>info@edataforce.com</span>
+                <span>info@midasis.com</span>
               </div>
               <div className="flex gap-3">
                 <Phone className="w-5 h-5 text-[#f58220]" />
-                <span>+1 (972) 989-3398</span>
+                <span>+1 (234) 575-9345</span>
               </div>
             </div>
           </div>

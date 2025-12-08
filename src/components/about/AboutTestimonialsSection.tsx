@@ -98,7 +98,7 @@ const AboutTestimonialsSection = () => {
               fontWeight: "700",
             }}
           >
-            EDATAFORCE CONSULTING LLC
+            MIDASIS CONSULTING LLC
           </p>
 
           <h2

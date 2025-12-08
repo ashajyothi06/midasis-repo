@@ -63,7 +63,7 @@ const SocGlobalThreatContent = () => {
                   color: "#000000",
                 }}
               >
-                Cyber security is complex and constantly evolving. At eDataForce, we enable
+                Cyber security is complex and constantly evolving. At Midasis, we enable
                 organizations to stay ahead of attackers through a comprehensive{" "}
                 <strong>SOC-as-a-Service</strong> model under our SOC &amp; Global Threat
                 Management offerings. Our real-time monitoring protects critical devices and
@@ -430,7 +430,7 @@ const SocGlobalThreatContent = () => {
                 }}
               >
                 <li>
-                  Can integrate with client-owned scanners or be fully managed by eDataForce
+                  Can integrate with client-owned scanners or be fully managed by Midasis
                 </li>
                 <li>24x7 support to address emerging vulnerabilities</li>
                 <li>
@@ -624,7 +624,7 @@ const SocGlobalThreatContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={socHero}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/75" />
@@ -634,7 +634,7 @@ const SocGlobalThreatContent = () => {
                   Let&apos;s Work Together
                 </p>
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce
+                  Midasis
                   <br />
                   Consulting LLC
                 </h3>

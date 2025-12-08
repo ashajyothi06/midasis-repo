@@ -76,7 +76,7 @@ const StaffAugmentationContent = () => {
                 >
                   In today’s constantly evolving IT landscape, having the right talent on your
                   team can make all the difference in executing critical projects successfully.
-                  At eDataForce, we understand that the key to success isn’t just operational 
+                  At Midasis, we understand that the key to success isn’t just operational 
                   excellence—it’s about having expert guidance and specialized skills to navigate 
                   complex business initiatives.
                 </p>
@@ -105,7 +105,7 @@ const StaffAugmentationContent = () => {
                     marginBottom: "0.5rem",
                   }}
                 >
-                  Why Choose eDataForce for Staff Augmentation?
+                  Why Choose Midasis for Staff Augmentation?
                 </h3>
                 <p
                   style={{
@@ -116,7 +116,7 @@ const StaffAugmentationContent = () => {
                 >
                   What sets successful organizations apart isn’t just their ability to execute 
                   projects, but the expert advice and strategic insights that drive them forward. 
-                  At eDataForce, we don’t just offer staffing solutions—we offer a partnership.
+                  At Midasis, we don’t just offer staffing solutions—we offer a partnership.
                 </p>
                 <p
                   className="mt-2"
@@ -126,7 +126,7 @@ const StaffAugmentationContent = () => {
                     color: "#000000",
                   }}
                 >
-                  With eDataForce, you get more than just a resource—you get a trusted advisor 
+                  With Midasis, you get more than just a resource—you get a trusted advisor 
                   who understands your business, your challenges, and your goals.
                 </p>
               </div>
@@ -292,7 +292,7 @@ const StaffAugmentationContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={staffCtaImage}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform 
                            duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
@@ -305,7 +305,7 @@ const StaffAugmentationContent = () => {
                 </p>
 
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce <br /> Consulting LLC
+                  Midasis <br /> Consulting LLC
                 </h3>
 
                 <Link to="/contact" className="w-full max-w-[220px]">

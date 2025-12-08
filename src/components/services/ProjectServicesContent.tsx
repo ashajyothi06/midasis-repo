@@ -66,7 +66,7 @@ const ProjectServicesContent = () => {
                 }}
               >
                 In today’s rapidly changing IT landscape, the need for agility, precision,
-                and speed has never been greater. At eDataForce, we offer a wide range of
+                and speed has never been greater. At Midasis, we offer a wide range of
                 project services designed to meet your business’s unique challenges and
                 ensure success. Our services blend industry-leading technology with our
                 extensive experience to help your business navigate complexity and achieve
@@ -139,7 +139,7 @@ const ProjectServicesContent = () => {
                   color: "#1B1F2E",
                 }}
               >
-                Why Partner With eDataForce?
+                Why Partner With Midasis?
               </h3>
 
               <p
@@ -149,7 +149,7 @@ const ProjectServicesContent = () => {
                   color: "#000000",
                 }}
               >
-                At eDataForce, we don’t just offer services—we build partnerships. Whether
+                At Midasis, we don’t just offer services—we build partnerships. Whether
                 you’re looking to scale, innovate, or transform, we provide the tools,
                 talent, and technology to help you succeed.
               </p>
@@ -207,7 +207,7 @@ const ProjectServicesContent = () => {
             <div className="relative w-full shadow-xl overflow-hidden min-h-[420px] group">
               <img
                 src={ctaImage}
-                alt="Contact eDataForce"
+                alt="Contact Midasis"
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-1"
               />
 
@@ -220,7 +220,7 @@ const ProjectServicesContent = () => {
                 </p>
 
                 <h3 className="text-2xl md:text-3xl font-extrabold leading-tight">
-                  eDataForce <br /> Consulting LLC
+                  Midasis <br /> Consulting LLC
                 </h3>
 
                 <Link to="/contact" className="w-full max-w-[220px]">

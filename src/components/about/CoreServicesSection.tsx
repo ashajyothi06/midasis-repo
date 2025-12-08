@@ -49,7 +49,7 @@ const CoreServicesSection = () => {
               letterSpacing: "0.25em",
             }}
           >
-            EDATAFORCE CONSULTING LLC
+            MIDASIS CONSULTING LLC
           </p>
 
           <h2
@@ -71,7 +71,7 @@ const CoreServicesSection = () => {
               color: "#000000",
             }}
           >
-            At eDataForce, we specialize in a range of services that address the 
+            At Midasis, we specialize in a range of services that address the 
             diverse needs of businesses across industries.
           </p>
         </div>
