@@ -23,7 +23,7 @@ const TopContactBar = () => {
             className="flex items-center gap-2 hover:text-[#ff6a00] transition-colors"
           >
             <Phone className="w-4 h-4 text-[#ff6a00]" />
-            <span>+1 (972) 989-3398</span>
+            <span>+1 (234) 575-9345</span>
           </a>
 
           <span className="text-white/80">•</span>
